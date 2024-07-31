@@ -70,7 +70,7 @@ color: #093e77;
 }
 
 .Tech-card-button1 {
-  background-color: #00aeef;
+  background-color: #344ea1;
   color: white;
 }
 
@@ -115,12 +115,12 @@ color: #093e77;
 }
 
 .Tech-card-button3 {
-  background-color: #003873;
+  background-color: #344ea1;
   color: white;
 }
 
 .Tech-card-button3::before {
-  background-color: #00aeef;
+  background-color: #69ba2f;
 }
 
 .Tech-card-button3:hover {

@@ -33,12 +33,12 @@
 }
 
 .dental-videos-content p {
-  line-height:1.5em;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
-color: #344ea1;
-font-size: 1.5em;
+  font-size: 1.2em;
+color: #093e77;
+line-height: 30px;
   margin-bottom: 10px;
 }
 
@@ -53,7 +53,7 @@ font-size: 1.5em;
 }
 .know-more-button {
   margin-top: 20px;
-  padding: 10px 30px;
+  padding: 10px 40px;
   font-size: 16px;
   cursor: pointer;
   background-color: #69ba2f; /* Default background color */
