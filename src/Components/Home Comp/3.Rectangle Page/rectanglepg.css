@@ -1,0 +1,110 @@
+.Border-rectang {
+  width: 100%;
+  height: 300px;
+  background-color: #f1f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.Total-Rectangle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center; /* Center items vertically in case of uneven height */
+}
+
+.rectangle-box {
+  position: relative;
+  width: 20%; /* Increased width for better responsiveness */
+  height: 150px;
+  padding: 20px; /* Adjust padding to fit better */
+  margin: 10px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.small-rectangle1, .small-rectangle2, .small-rectangle3 {
+  position: absolute;
+  top: -35px; /* Adjusted position for better alignment */
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #344ea1;
+  border-radius: 20px;
+}
+
+.small-rectangle1 {
+  background-color: #00aeef;
+}
+
+.small-rectangle2 {
+  background-color: #344ea1;
+}
+
+.small-rectangle3 {
+  background-color: #003873;
+}
+
+.small-image {
+  width: 100%;
+  height: 100%;
+}
+
+.Rectangle-content {
+  padding: 0 15px; /* Adjust padding for content */
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  color: #093e77;
+}
+
+@media (max-width: 768px) {
+  .Border-rectang {
+    height: auto; /* Allow height to adjust based on content */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Total-Rectangle {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .rectangle-box {
+    width: 80%; /* Adjust width for better fit on mobile */
+    margin: 10px 0;
+    margin-top: 30px; /* Adjusted margin for better spacing */
+  }
+  
+  .small-rectangle1, .small-rectangle2, .small-rectangle3 {
+    top: -20px; /* Adjusted position for mobile */
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+    
+  .Border-rectang {
+    width: 100%;
+    height: 800px;
+  }
+  .rectangle-box {
+    width: 25%; 
+    height: max-content;
+    margin-top: 150px;
+    font-size: 3em;
+  }
+  .small-rectangle1, .small-rectangle2, .small-rectangle3 {
+    top: -60px; 
+    width: 100px;
+    height: 100px;
+  }
+}

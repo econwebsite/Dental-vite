@@ -1,0 +1,316 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Reset */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Navbar Styles */
+.navbarpage-navbar {
+  width: 100%;
+  background-color: #f1f2f2; /* Background color of the navbar */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically for mobile */
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  position: sticky; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure the navbar is on top */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Logo Styles */
+.navbarpage-logo {
+  height: 50px; /* Default height of the logo */
+  margin-bottom: 10px; /* Space below logo */
+}
+
+/* Navigation Items Styles */
+.navbarpage-navItems {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: center; /* Center items within the available space */
+  width: 100%;
+  margin-bottom: 10px; /* Space below nav items */
+  flex-wrap: wrap; /* Allow wrapping to prevent overflow */
+}
+
+.navbarpage-navItems a {
+  margin: 0 10px; /* Margin around navigation links */
+  text-decoration: none;
+  color: #003873; /* Dark color for contrast */
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; /* Medium weight for better readability */
+  font-size: 14px; /* Default font size */
+  position: relative; /* Required for positioning the divider */
+}
+.navbarpage-navItems a:hover {
+  color: #69ba2f;
+}
+
+/* Divider Styles */
+.navbarpage-divider {
+  height: 20px; /* Height of the divider */
+  width: 2px; /* Set consistent width for all dividers */
+  background-color: #69ba2f; /* Color of the divider */
+  border-left: 2px solid #69ba2f; /* Border style and color */
+  margin: 0 10px; /* Space around the divider */
+}
+
+/* Search Input Styles */
+.navbarpage-searchInput {
+  width: 100%; /* Full width for search input */
+  padding: 6px 12px;
+  border: 1px solid #69ba2f;
+  border-radius: 30px; /* Rounded corners for search input */
+  height: 30px; /* Height of the search input */
+  font-size: 12px; /* Font size */
+  margin-bottom: 10px; /* Space below search input */
+}
+
+/* Contact Section Styles */
+.navbarpage-contact {
+  display: flex;
+  flex-direction: row; /* Arrange contact items in a row */
+  align-items: center;
+  justify-content: center; /* Center contact items */
+  width: 100%; /* Full width for contact section */
+  margin-bottom: 10px; /* Space below contact section */
+}
+
+.navbarpage-phoneIcon {
+  color: #003873; /* Dark color for contrast */
+  font-size: 24px; /* Font size */
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.navbarpage-contactDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px; /* Space between contact details and button */
+}
+
+.navbarpage-tellUs {
+  font-size: 14px; /* Font size */
+  margin: 0; /* Removed margin for better alignment */
+  color: #003873; /* Dark color for contrast */
+}
+
+.navbarpage-phoneNumber {
+  font-size: 14px; /* Font size */
+  margin: 0; /* Removed margin for better alignment */
+  color: #003873; /* Dark color for contrast */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Get a Quote Button Styles */
+.navbarpage-getQuoteButton {
+  padding: 8px 16px; /* Adjusted padding for smaller screens */
+  background-color: #69ba2f; /* Highlight color */
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px; /* Font size */
+  margin: 0; 
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  outline: none;
+  transition: color 0.4s ease;
+  z-index: 1;
+}
+
+.navbarpage-getQuoteButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #344ea1;
+  transition: left 0.4s ease;
+  z-index: -1;
+}
+
+.navbarpage-getQuoteButton:hover::before {
+  left: 0;
+}
+
+.navbarpage-getQuoteButton:hover {
+  color: #f1f2f2;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbarpage-navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 4 10px; /* Adjust padding */
+    position: relative; 
+  }
+
+  .navbarpage-logo {
+    height: 40px; /* Adjusted height for smaller screens */
+    margin-bottom: 10px; /* Space below logo */
+  }
+
+  .navbarpage-navItems {
+    margin-bottom: 10px; /* Space below nav items */
+  }
+
+  .navbarpage-searchInput {
+    margin-bottom: 10px; /* Space below search input */
+  }
+
+  .navbarpage-contact {
+    margin-bottom: 10px; /* Space below contact section */
+  }
+
+  .navbarpage-phoneIcon {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+    margin-right: 5px; /* Adjusted spacing */
+  }
+
+  .navbarpage-contactDetails {
+    margin-right: 5px; /* Adjusted spacing */
+  }
+
+  .navbarpage-getQuoteButton {
+    padding: 6px 12px; /* Adjusted padding */
+    font-size: 12px; /* Font size */
+    margin-left: 5px; /* Space between button and contact details */
+  }
+
+  .navbarpage-divider {
+    display: none; /* Hide the divider on mobile */
+  }
+}
+
+/* Tablet (1024px) and Above */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .navbarpage-navbar {
+    flex-direction: row; /* Horizontal layout */
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+
+  .navbarpage-logo {
+    height: 40px; /* Slightly smaller logo for 1024px screens */
+    margin-right: 20px; /* Space between logo and nav items */
+  }
+
+  .navbarpage-navItems {
+    flex-direction: row; /* Ensure horizontal layout */
+    justify-content: flex-start; /* Align items to the start */
+    margin: 0; /* No margin for nav items */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: auto; /* Allow content to expand within the navbar */
+  }
+
+  .navbarpage-navItems a {
+    font-size: 13px; /* Smaller font size for 1024px screens */
+    margin: 0 8px; /* Consistent margin */
+  }
+
+  .navbarpage-searchInput {
+    width: 200px; /* Fixed width for search input */
+    padding: 15px;
+    margin-left: 5px; /* Space between search input and navigation items */
+  }
+
+  .navbarpage-contact {
+    display: flex;
+    align-items: center;
+    margin-left: 5px; /* Space between contact section and search input */
+  }
+
+  .navbarpage-phoneIcon {
+    font-size: 20px; /* Adjusted font size */
+    margin-right: 5px; /* Adjusted spacing */
+  }
+
+  .navbarpage-contactDetails {
+    margin-right: 5px;
+  }
+
+  .navbarpage-getQuoteButton {
+    padding: 10px 15px; /* Adjusted padding */
+    font-size: 12px; /* Font size */
+    margin-left: 15px; /* Space between button and contact details */
+  }
+
+  .navbarpage-divider {
+    display: inline-block; /* Ensure divider is visible */
+  }
+}
+
+/* Large Desktop (1440px) and Above */
+@media (min-width: 1240px) {
+  .navbarpage-navbar {
+    flex-direction: row; /* Horizontal layout */
+    align-items: center;
+    padding: 15px 30px; /* Increased padding for larger screens */
+    width: 100%;
+  }
+
+  .navbarpage-logo {
+    height: 40px; /* Larger logo size for larger screens */
+    margin-right: 30px; /* Increased space between logo and nav items */
+  }
+
+  .navbarpage-navItems {
+    flex-direction: row; /* Horizontal layout */
+    justify-content: center; /* Center items within the available space */
+    margin: 0 auto; /* Center the items */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: auto; /* Allow content to expand within the navbar */
+  }
+
+  .navbarpage-navItems a {
+    font-size: 16px; /* Larger font size for larger screens */
+    margin: 0 15px; /* Increased margin */
+  }
+
+  .navbarpage-searchInput {
+    width: 300px; /* Increase width for search input */
+    margin-left: 15px; /* Space between search input and navigation items */
+    
+  }
+
+  .navbarpage-contact {
+    margin-left: 15px; /* Increased space between contact section and search input */
+  }
+
+  .navbarpage-phoneIcon {
+    font-size: 24px; /* Larger font size */
+    margin-right: 10px; /* Increased spacing */
+  }
+
+  .navbarpage-contactDetails {
+    margin-right: 10px; /* Increased spacing */
+  }
+
+  .navbarpage-getQuoteButton {
+    padding: 12px 20px; /* Increased padding */
+    font-size: 14px; /* Larger font size */
+    margin-left: 20px; /* Increased space between button and contact details */
+  }
+
+  .navbarpage-divider {
+    display: inline-block; /* Ensure divider is visible */
+  }
+}

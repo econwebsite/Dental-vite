@@ -1,0 +1,233 @@
+.Camera-Header {
+  text-align: center;
+  padding: 20px;
+}
+
+.underline {
+  width: 50%;
+  height: 2px;
+  background-color: #a2cce4;
+  margin: 0 auto 20px;
+}
+
+.Total-cam-blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Oral-left {
+  flex-basis: 35%;
+}
+
+.Oral-right {
+  flex-basis: 45%;
+  text-align: center;
+}
+
+.Oral-image {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.oral-title1 {
+  margin: 20px 0 10px;
+  color: #00adef;
+  font-size: 3em; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.oral-title2 {
+  margin: 20px 0 10px;
+  font-size: 3em; 
+  color: #003873;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Oral-paragraph {
+  text-align: justify;
+  margin: 0 0 20px;
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2em;
+  color: #093e77;
+}
+
+.Oral-Butons1 {
+  display: flex;
+  justify-content: right;
+  margin-top: 30px;
+
+}
+.Oral-Butons2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+
+}
+
+.Down-tech-button {
+  padding: 15px 25px;
+  background-color: #003873;
+  font-size: 1em;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  transition: color 0.4s ease, border-color 0.4s ease;
+  z-index: 1;
+}
+.Down-tech-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00aeef; /* Color to fill */
+  transition: left 0.4s ease;
+  z-index: -1; /* Ensure the pseudo-element is behind the text */
+}
+.Down-tech-button:hover::before {
+  left: 0;
+}
+
+.Down-tech-button:hover {
+  color: #f1f2f2; /* Text color when hovered */
+  border-color:#00aeef; 
+}
+
+
+.Get-Sample-button {
+  margin: 0 10px;
+  padding: 15px 25px;
+  font-size: 1em;
+  background-color: #344ea1;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  transition: color 0.4s ease, border-color 0.4s ease;
+  z-index: 1;
+}
+.Get-Sample-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00aeef; /* Color to fill */
+  transition: left 0.4s ease;
+  z-index: -1; /* Ensure the pseudo-element is behind the text */
+}
+.Get-Sample-button:hover::before {
+  left: 0;
+}
+
+.Get-Sample-button:hover {
+  color: #f1f2f2; /* Text color when hovered */
+  border-color:#00aeef; 
+}
+
+
+@media (max-width: 768px) {
+  .Total-cam-blog {
+    flex-direction: column;
+  }
+  .Oral-left {
+    order: 1;
+    margin-bottom: 20px;
+  }
+  .Oral-right {
+    order: 2;
+  }
+  .Oral-image {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .left, .right {
+    flex-basis: 100%;
+  }
+  .oral-title1 {
+    font-size: 2em; 
+  }
+  .oral-title2 {
+    font-size: 2em; 
+  }
+  .Oral-paragraph {
+    font-size: 1em;
+  }
+  
+.Get-Sample-button {
+  padding: 10px 20px;
+  font-size: small;
+}
+.Down-tech-button{
+  padding: 10px 20px;
+  font-size: small;
+}
+}
+
+@media screen and (min-width: 1600px) {
+
+  .Oral-left {
+    flex-basis: 45%;
+  }
+  
+  .Oral-right {
+    flex-basis: 50%;
+  }
+  
+  .Oral-image {
+    width: 60%;
+    margin-bottom: 0px;
+  }
+  .oral-title1 {
+    margin: 40px 0 40px;
+    font-size: 5em; 
+    
+  }
+  .oral-title2 {
+    margin: 40px 0 40px;
+    font-size: 5em; 
+
+  }
+  .Oral-paragraph {
+    margin: 0 0 20px;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+    font-size: 2.5em; 
+  }
+  .Get-Sample-button {
+    padding: 30px 60px;
+        font-size: 2em;
+        margin-left: 20px;
+  }
+  .Down-tech-button {
+    padding: 30px 60px;
+    font-size: 2em;
+  }
+
+}

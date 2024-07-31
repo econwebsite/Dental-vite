@@ -1,0 +1,87 @@
+.container {
+  width: 90%;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+/* Columns layout */
+.left-column, .center-column, .right-column {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column, .right-column {
+  width: 30%;
+}
+
+.center-column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically within the column */
+  align-items: center; /* Centers content horizontally within the column */
+}
+
+/* Carousel Image */
+.carousel-image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; /* Ensures the image covers the carousel area without distortion */
+}
+
+/* Center Column - Text Content */
+.center-column .text-content {
+  text-align: center; /* Centers text horizontally */
+}
+
+.center-column .highlights {
+  margin-left: 3px;
+  margin-top: 8px;
+}
+
+.center-column .highlight-item {
+  margin-top: 4px;
+}
+
+.center-column .actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.center-column .price-doc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.center-column .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Right Column - Related Videos */
+.right-column {
+  border-left: 1px solid #f1f2f2;
+}
+
+.video-frame-container {
+  width: 100%;
+  height: 200px; /* Adjusted height to make the video smaller */
+}
+
+.video-frame {
+  width: 300px;
+  height: 180px;
+}
+
+.related-article img {
+  width: 300px; /* Ensure the image doesn't exceed this width */
+  height: 180px;
+  margin-top: 10px;
+}

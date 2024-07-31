@@ -1,0 +1,173 @@
+/* General Styles */
+.blogArtical-Total {
+  text-align: center;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.Artical-paragraphs p {
+  margin: 0;
+  padding: 10px;
+  color: #033873;
+}
+
+.mail-color {
+  color: #00aeef;
+}
+
+.Artical-person {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  background-color: #f1f2f2;
+  margin: 20px auto;
+  max-width: 70%;
+  padding: 30px;
+}
+
+.Articalleft-side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text horizontally */
+}
+
+.Articalleft-side p {
+  color: #033873;
+  margin: 5px 0; /* Adjust margin for consistent spacing */
+}
+
+.Articalperson-photo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 0; /* Remove extra margin */
+}
+
+.Articalright-side {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center text vertically */
+}
+
+.Articalright-side p {
+  text-align: justify;
+  color: #033873;
+  margin: 0; /* Remove extra margin */
+}
+
+.Articalnotification-box {
+  background-color: #f1f2f2;
+  padding: 20px;
+  height: 200px;
+  margin: 0%;
+}
+
+.Articalnotification-box h3 {
+  color: #00aeef;
+  font-size: 2em;
+}
+
+.Articalnotification-box p {
+  color: #033873;
+}
+
+.Articalsubscribe-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.Artical-inputemail {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #00aeef;
+}
+
+.Articalknow-button {
+  padding: 10px 40px;
+  background-color: #69ba2f;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  outline: none;
+  transition: color 0.4s ease, border-color 0.4s ease;
+  z-index: 1; /* Ensure button text is above the pseudo-element */
+}
+
+.Articalknow-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00aeef; /* Color to fill */
+  transition: left 0.4s ease;
+  z-index: -1; /* Ensure the pseudo-element is behind the text */
+}
+
+.Articalknow-button:hover::before {
+  left: 0; /* Move the fill effect to cover the button */
+}
+
+.Articalknow-button:hover {
+  color: #f1f2f2; /* Text color when hovered */
+  border-color: #00aeef; /* Border color when hovered */
+}
+
+.dental-video-right iframe {
+  width: 70%; /* Reduce iframe width */
+  height: 50%; /* Reduce iframe height */
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .Artical-person {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 10px;
+    gap: 20px; /* Add space between left and right sections */
+  }
+
+  .Articalleft-side, .Articalright-side {
+    width: 90%;
+    text-align: center; /* Center text in both sides */
+  }
+
+  .Articalleft-side {
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+
+  .Articalnotification-box {
+    /* padding: 15px; */
+    height: auto; /* Adjust height based on content */
+  }
+
+  .Articalsubscribe-row {
+    flex-direction: column; /* Stack input and button vertically */
+    align-items: center;
+    gap: 15px; /* Increase gap between input and button */
+  }
+
+  .Artical-inputemail {
+    width: 50%;
+    max-width: 300px; /* Increase max-width to use more screen space */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .Articalknow-button {
+    width: 50%;
+    max-width: 300px; /* Increase max-width to use more screen space */
+    padding: 10px 20px;
+    font-size: 1em; /* Adjust font size for better readability */
+  }
+}

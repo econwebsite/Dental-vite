@@ -1,0 +1,107 @@
+.Certification-container {
+  background-color: #f1f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 300px;
+}
+
+.certification-heading {
+  font-size: 3em; 
+  color: #003873;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+.quality-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.certification-box {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border: 1px solid #f1f2f3; /* Outer border color */
+  box-sizing: border-box; /* Ensures border is included in the width and height */
+}
+
+.inner-box {
+  width: 90px; /* Size of the inner box */
+  height: 90px; /* Size of the inner box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color:aliceblue; /* Background color for the inner box */
+}
+
+.inner-box img {
+  width: 50%; /* Adjust image size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .certification-box {
+    width: 150px; /* Adjust size for tablet */
+    height: 150px; /* Adjust size for tablet */
+  }
+  .inner-box {
+    width: 100px; /* Adjust size for the inner box on tablet */
+    height: 100px; /* Adjust size for the inner box on tablet */
+  }
+  .certification-heading {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .Certification-container {
+    height: 500px;
+  }
+  .certification-heading {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .certification-box {
+    width: 120px; /* Adjust size for mobile */
+    height: 120px; /* Adjust size for mobile */
+  }
+  .inner-box {
+    width: 80px; /* Adjust size for the inner box on mobile */
+    height: 80px; /* Adjust size for the inner box on mobile */
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .Certification-container {
+    height: 600px;
+  }
+  .certification-heading {
+    font-size: 5em;
+    margin-top: 50px;
+  }
+  .certification-box {
+    width: 250px; 
+    height: 250px; 
+  }
+  .inner-box {
+    width: 150px; 
+    height: 150px; 
+  }
+  .certification-box img {
+    width: 60%;
+    height: auto; /* Maintain aspect ratio */
+  }
+}

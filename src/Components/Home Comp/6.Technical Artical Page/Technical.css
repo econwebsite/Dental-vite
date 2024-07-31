@@ -1,0 +1,189 @@
+.Technical-Total {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.Technical-title {
+  margin-bottom: 20px;
+  font-size: 3em; 
+  color: #003873;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Total-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Technical-card {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left; /* Ensures text is aligned left */
+  width: 30%;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.Tech-card-image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.Tech-card-title {
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.5em;
+color: #093e77;
+  margin-bottom: 10px;
+}
+
+.Techcard-text {
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+  color: #344ea1;
+  margin-bottom: 30px;
+}
+
+.Tech-card-button1,
+.Tech-card-button2,
+.Tech-card-button3 {
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-size: 1em;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  outline: none;
+  transition: color 0.4s ease, background-color 0.4s ease;
+  z-index: 1;
+}
+
+.Tech-card-button1 {
+  background-color: #00aeef;
+  color: white;
+}
+
+.Tech-card-button1::before,
+.Tech-card-button2::before,
+.Tech-card-button3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: left 0.4s ease;
+  z-index: -1;
+}
+
+.Tech-card-button1::before {
+  background-color: #69ba2f;
+}
+
+.Tech-card-button1:hover::before,
+.Tech-card-button2:hover::before,
+.Tech-card-button3:hover::before {
+  left: 0;
+}
+
+.Tech-card-button1:hover {
+  color: #f1f2f2;
+}
+
+.Tech-card-button2 {
+  background-color: #344ea1;
+  color: white;
+}
+
+.Tech-card-button2::before {
+  background-color: #69ba2f;
+}
+
+.Tech-card-button2:hover {
+  color: #f1f2f2;
+}
+
+.Tech-card-button3 {
+  background-color: #003873;
+  color: white;
+}
+
+.Tech-card-button3::before {
+  background-color: #00aeef;
+}
+
+.Tech-card-button3:hover {
+  color: #f1f2f2;
+}
+
+@media (max-width: 768px) {
+  .Total-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Technical-card {
+    width: 100%;
+    text-align: center; /* Ensures text is centered */
+  }
+
+  .Technical-title {
+    font-size: 2em; 
+  }
+  .Techcard-text {
+    line-height: 1.5em;
+    font-size: 0.8em; 
+  }
+  .Tech-card-title {
+    line-height: 1.5em;
+    font-size: 1em; 
+  }
+  .Tech-card-button1,
+.Tech-card-button2,
+.Tech-card-button3 {
+  font-size: small;
+  padding: 10px 40px;
+}
+}
+
+
+@media screen and (min-width: 1600px) {
+
+  .Technical-title {
+    margin-bottom: 20px;
+    font-size: 5em; 
+  }
+  .Technical-card {
+    padding: 30px;
+    width: 30%;
+  }
+  .Technical-Total {
+    max-width: 1800px;
+  }
+  .Techcard-text {
+    line-height: 1.5em;
+    font-size: 2em; 
+  }
+  .Tech-card-title {
+    line-height: 1em;
+    font-size: 3em; 
+  }
+  .Tech-card-button1,
+  .Tech-card-button2,
+  .Tech-card-button3 {
+    padding: 30px 60px;
+    font-size: 2em;
+  }
+  
+}
