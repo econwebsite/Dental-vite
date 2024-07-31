@@ -1,7 +1,7 @@
 .Dental-header {
     display: flex;
     width: 100%;
-    min-height: 100vh;
+    height: 400px;
     background-size: cover;
     background-position: center;
     flex-wrap: nowrap;
@@ -62,7 +62,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 
 .contactus-Button {
@@ -142,6 +142,9 @@
 
 @media (max-width: 800px) {
     .Dental-header {
+        height: 720px;
+    }
+    .Dental-header {
         flex-direction: column;
     }
 
@@ -191,6 +194,9 @@
 }
 
 @media (max-width: 500px) {
+    .Dental-header {
+        height: 520px;
+    }
     .left-Bg::before {
         width: 60%;
         height: 200px;
@@ -210,6 +216,9 @@
 }
 
 @media screen and (min-width: 1600px) {
+    .Dental-header {
+        height: 700px;
+    }
     .left-Bg {
         flex: 0 0 60%; /* 60% of the width */
         padding: 0px;
