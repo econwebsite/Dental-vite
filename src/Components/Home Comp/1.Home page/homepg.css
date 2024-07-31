@@ -54,16 +54,17 @@
 .buttons-inform {
     margin-top: 20px;
 }
-.static-text{
+
+.static-text {
     font-size: 3.5em; /* Adjust for large screens */
     color: #3443a1;
     margin-top: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  line-height: 1.5em;
- 
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.5em;
 }
+
 .contactus-Button {
     position: relative;
     margin-right: 10px;
@@ -174,7 +175,7 @@
         background-position: center;
         width: 70%;
         height: 400px;
-        margin-bottom: 20px;
+        margin-bottom: 10px; /* Adjust margin-bottom */
     }
 
     .buttons-inform {
@@ -183,9 +184,9 @@
         align-items: center;
         margin-top: 10px;
     }
-    .static-text{
+
+    .static-text {
         font-size: 2em; 
-     
     }
 }
 
@@ -193,7 +194,7 @@
     .left-Bg::before {
         width: 60%;
         height: 200px;
-        margin-bottom: 20px;
+        margin-bottom: 10px; /* Adjust margin-bottom */
     }
     .text-sticky {
         font-size: 1em;
@@ -208,10 +209,7 @@
     }
 }
 
-
 @media screen and (min-width: 1600px) {
-    
-
     .left-Bg {
         flex: 0 0 60%; /* 60% of the width */
         padding: 0px;
@@ -231,7 +229,7 @@
         color: #013773;
         margin-top: 20px;
     }
-    .static-text{
+    .static-text {
         font-size: 5em; /* Adjust for large screens */
     }
     .contactus-Button {
@@ -243,4 +241,4 @@
         font-size: 2em;
         margin-left: 30px;
     }
-  }
+}

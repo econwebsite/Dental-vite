@@ -39,7 +39,6 @@ function Intraoralpg() {
           </div>
         </div>
       </div>
-      <div style={{marginBottom:"10px"}}></div>
     </div>
   );
 }
