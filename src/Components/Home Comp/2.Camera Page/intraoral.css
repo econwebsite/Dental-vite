@@ -150,6 +150,10 @@
 
 
 @media (max-width: 768px) {
+  .Camera-Header {
+    text-align: center;
+    padding: 0px;
+  }
   .Total-cam-blog {
     flex-direction: column;
   }

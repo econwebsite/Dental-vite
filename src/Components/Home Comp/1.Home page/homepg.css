@@ -175,7 +175,7 @@
         background-position: center;
         width: 70%;
         height: 400px;
-        margin-bottom: 10px; /* Adjust margin-bottom */
+        margin-bottom: 10px; 
     }
 
     .buttons-inform {
@@ -194,18 +194,18 @@
     .left-Bg::before {
         width: 60%;
         height: 200px;
-        margin-bottom: 10px; /* Adjust margin-bottom */
+        margin-bottom: 10px;
     }
     .text-sticky {
         font-size: 1em;
     }
     .contactus-Button {
         padding: 10px 20px;
-        font-size: small;
+        font-size: medium;
     }
     .getQuote-Button {
         padding: 10px 20px;
-        font-size: small;
+        font-size: medium;
     }
 }
 
