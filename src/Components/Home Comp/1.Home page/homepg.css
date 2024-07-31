@@ -193,7 +193,7 @@
 @media (max-width: 500px) {
     .left-Bg::before {
         width: 60%;
-        height: 200px;
+        height: auto;
         margin-bottom: 10px;
     }
     .text-sticky {
