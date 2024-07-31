@@ -3,12 +3,12 @@
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
-  margin-top: 5px;
   overflow-x: hidden;
+  margin-top: 20px;
 }
 
 .whats-heading {
-  margin-bottom: 40px; /* Space below the heading */
+  margin-bottom: 40px; 
   font-size: 3em; 
   color: #003873;
   font-family: "Roboto", sans-serif;
