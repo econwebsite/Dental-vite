@@ -144,12 +144,6 @@
         flex-direction: column;
     }
 
-    .animated-text-container {
-        height: 150px;
-        font-size: 20px;
-        line-height: 26px;
-    }
-
     .left-Bg {
         width: 100%;
         background-image: none;
