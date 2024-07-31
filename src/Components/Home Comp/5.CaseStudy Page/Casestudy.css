@@ -155,29 +155,3 @@
     font-size: small;
   }
 }
-
-@media screen and (min-width: 1600px) {
-  .Case-title {
-    font-size: 5em; 
-  }
-  
-  .Case-Heading {
-    line-height: 1.5em;
-    font-size: 2.5em; 
-  }
-
-  .Class-para {
-    line-height: 1.5em;
-    font-size: 2.5em; 
-  }
-  
-  .read-morebtn {
-    padding: 30px 60px;
-    font-size: 2em;
-  }
-  
-  .Case-images {
-    width: 650px; /* Adjust as needed */
-    transform: translateX(-20px); /* Move image 20px to the left */
-  }
-}

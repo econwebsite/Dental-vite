@@ -31,14 +31,14 @@ body {
 
 /* Logo Styles */
 .navbarpage-logo {
-  height: 50px; /* Default height of the logo */
-  margin-bottom: 10px; /* Space below logo */
+  height: 50px; 
 }
 
 /* Navigation Items Styles */
 .navbarpage-navItems {
   display: flex;
   flex-direction: row; /* Horizontal layout */
+  align-items: center;
   justify-content: center; /* Center items within the available space */
   width: 100%;
   margin-bottom: 10px; /* Space below nav items */
@@ -75,7 +75,6 @@ body {
   border-radius: 30px; /* Rounded corners for search input */
   height: 30px; /* Height of the search input */
   font-size: 12px; /* Font size */
-  margin-bottom: 10px; /* Space below search input */
 }
 
 /* Contact Section Styles */
@@ -85,13 +84,12 @@ body {
   align-items: center;
   justify-content: center; /* Center contact items */
   width: 100%; /* Full width for contact section */
-  margin-bottom: 10px; /* Space below contact section */
 }
 
 .navbarpage-phoneIcon {
   color: #003873; /* Dark color for contrast */
   font-size: 24px; /* Font size */
-  margin-right: 10px; /* Space between icon and text */
+  margin-right: 10px; 
 }
 
 .navbarpage-contactDetails {
@@ -207,6 +205,10 @@ body {
     width: 100%;
     overflow: hidden; /* Ensure content doesn't overflow */
   }
+  .Nav-align{
+    display: flex;
+    justify-content: space-around;
+ }
 
   .navbarpage-logo {
     height: 40px; /* Slightly smaller logo for 1024px screens */
@@ -216,7 +218,6 @@ body {
   .navbarpage-navItems {
     flex-direction: row; /* Ensure horizontal layout */
     justify-content: flex-start; /* Align items to the start */
-    margin: 0; /* No margin for nav items */
     flex-wrap: nowrap; /* Prevent wrapping */
     width: auto; /* Allow content to expand within the navbar */
   }
@@ -229,13 +230,11 @@ body {
   .navbarpage-searchInput {
     width: 200px; /* Fixed width for search input */
     padding: 15px;
-    margin-left: 5px; /* Space between search input and navigation items */
   }
 
   .navbarpage-contact {
     display: flex;
     align-items: center;
-    margin-left: 5px; /* Space between contact section and search input */
   }
 
   .navbarpage-phoneIcon {
@@ -275,14 +274,14 @@ body {
   .navbarpage-navItems {
     flex-direction: row; /* Horizontal layout */
     justify-content: center; /* Center items within the available space */
-    margin: 0 auto; /* Center the items */
+
     flex-wrap: nowrap; /* Prevent wrapping */
     width: auto; /* Allow content to expand within the navbar */
   }
 
   .navbarpage-navItems a {
     font-size: 16px; /* Larger font size for larger screens */
-    margin: 0 15px; /* Increased margin */
+    margin: 10 10px; /* Increased margin */
   }
 
   .navbarpage-searchInput {
@@ -290,6 +289,10 @@ body {
     margin-left: 15px; /* Space between search input and navigation items */
     
   }
+  .Nav-align{
+    display: flex;
+    width: 100%;
+ }
 
   .navbarpage-contact {
     margin-left: 15px; /* Increased space between contact section and search input */
@@ -313,4 +316,27 @@ body {
   .navbarpage-divider {
     display: inline-block; /* Ensure divider is visible */
   }
+}
+
+
+@media screen and (min-width: 1600px) {
+.navbarpage-navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Nav-align{
+   max-width: 1600px;
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.navbarpage-contact {
+  display: flex;
+  flex-direction: row; /* Arrange contact items in a row */
+  align-items: center;
+  justify-content:flex-end;
+}
+
 }

@@ -141,30 +141,3 @@ font-size: 1.5em;
   font-size: 1em;
   }
 }
-
-@media screen and (min-width: 1600px) {
-
-  .Dental-Video-total {
-    height: 900px;
-  }
-  .dental-video-left {
-    width: 60%;
-  }
-  
-  .dental-video-right {
-    width: 40%;
-  }
-  .dental-videos-content p {
-    line-height:1.5em;
-  font-size: 2.5em;
-  }
-  .dental-videos-content h1{
-    font-size: 5em;
-    line-height: 1.2em;
-  }
-  .know-more-button {
-    padding: 30px 60px;
-    font-size: 2em;
-  }
-
-}

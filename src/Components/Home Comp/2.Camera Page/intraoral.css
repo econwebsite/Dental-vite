@@ -17,7 +17,7 @@
 }
 
 .Oral-left {
-  flex-basis: 35%;
+  flex-basis: 45%;
 }
 
 .Oral-right {
@@ -26,7 +26,7 @@
 }
 
 .Oral-image {
-  width: 70%;
+  width: 60%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -188,46 +188,4 @@
   padding: 10px 20px;
   font-size: small;
 }
-}
-
-@media screen and (min-width: 1600px) {
-
-  .Oral-left {
-    flex-basis: 45%;
-  }
-  
-  .Oral-right {
-    flex-basis: 50%;
-  }
-  
-  .Oral-image {
-    width: 60%;
-    margin-bottom: 0px;
-  }
-  .oral-title1 {
-    margin: 40px 0 40px;
-    font-size: 5em; 
-    
-  }
-  .oral-title2 {
-    margin: 40px 0 40px;
-    font-size: 5em; 
-
-  }
-  .Oral-paragraph {
-    margin: 0 0 20px;
-    line-height: 1.5em;
-    margin-bottom: 40px;
-    font-size: 2.5em; 
-  }
-  .Get-Sample-button {
-    padding: 30px 60px;
-        font-size: 2em;
-        margin-left: 20px;
-  }
-  .Down-tech-button {
-    padding: 30px 60px;
-    font-size: 2em;
-  }
-
 }

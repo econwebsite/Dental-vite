@@ -17,6 +17,7 @@ const Navbarpage = () => {
 
   return (
     <nav className="navbarpage-navbar">
+      <div className='Nav-align'>
       <img src={econlogo} alt="Econ Logo" className="navbarpage-logo" />
       <div className="navbarpage-navItems">
         <a href="#products" onClick={() => handleNavigation('/products', true)}>Products</a>
@@ -28,7 +29,7 @@ const Navbarpage = () => {
         <a href="#blog" onClick={() => handleNavigation('/Blog', true)}>Blog</a>
         <div className="navbarpage-divider"></div>
         <a href="#about" onClick={() => handleNavigation('/About', true)}>About</a>
-      </div>
+     
      
       <input type="text" placeholder='Search..' className="navbarpage-searchInput" />
       <div className="navbarpage-contact">
@@ -38,6 +39,8 @@ const Navbarpage = () => {
           <p className="navbarpage-phoneNumber">+1 408 766 7503</p>
         </div>
         <button className="navbarpage-getQuoteButton">Get a Quote</button>
+      </div>
+      </div>
       </div>
     </nav>
   );

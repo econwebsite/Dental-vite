@@ -157,33 +157,3 @@ color: #093e77;
 }
 }
 
-
-@media screen and (min-width: 1600px) {
-
-  .Technical-title {
-    margin-bottom: 20px;
-    font-size: 5em; 
-  }
-  .Technical-card {
-    padding: 30px;
-    width: 30%;
-  }
-  .Technical-Total {
-    max-width: 1800px;
-  }
-  .Techcard-text {
-    line-height: 1.5em;
-    font-size: 2em; 
-  }
-  .Tech-card-title {
-    line-height: 1em;
-    font-size: 3em; 
-  }
-  .Tech-card-button1,
-  .Tech-card-button2,
-  .Tech-card-button3 {
-    padding: 30px 60px;
-    font-size: 2em;
-  }
-  
-}

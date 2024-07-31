@@ -88,25 +88,3 @@
     height: 80px; /* Adjust size for the inner box on mobile */
   }
 }
-
-@media screen and (min-width: 1600px) {
-  .Certification-container {
-    height: 600px;
-  }
-  .certification-heading {
-    font-size: 5em;
-    margin-top: 50px;
-  }
-  .certification-box {
-    width: 250px; 
-    height: 250px; 
-  }
-  .inner-box {
-    width: 150px; 
-    height: 150px; 
-  }
-  .certification-box img {
-    width: 60%;
-    height: auto; /* Maintain aspect ratio */
-  }
-}
