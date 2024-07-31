@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background-color:aliceblue; /* Background color for the inner box */
+  background-color: aliceblue; /* Background color for the inner box */
 }
 
 .inner-box img {
@@ -54,12 +54,12 @@
 
 @media (max-width: 768px) {
   .certification-box {
-    width: 150px; /* Adjust size for tablet */
-    height: 150px; /* Adjust size for tablet */
+    width: 120px; /* Adjust size for tablet */
+    height: 120px; /* Adjust size for tablet */
   }
   .inner-box {
-    width: 100px; /* Adjust size for the inner box on tablet */
-    height: 100px; /* Adjust size for the inner box on tablet */
+    width: 80px; /* Adjust size for the inner box on tablet */
+    height: 80px; /* Adjust size for the inner box on tablet */
   }
   .certification-heading {
     font-size: 2.5em;
@@ -68,14 +68,19 @@
 
 @media (max-width: 480px) {
   .Certification-container {
-    height: 500px;
+    height: auto; /* Adjust height for mobile */
   }
   .certification-heading {
     font-size: 1.5em;
     text-align: center;
   }
+  .quality-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+    gap: 10px; /* Space between boxes */
+  }
   .certification-box {
-    width: 120px; /* Adjust size for mobile */
+    width: 120px; /* Full width of each grid cell */
     height: 120px; /* Adjust size for mobile */
   }
   .inner-box {

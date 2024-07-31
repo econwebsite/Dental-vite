@@ -13,19 +13,19 @@ const Technical = () => {
           <img src={Technical1} alt="AI-enabled point of care device" className="Tech-card-image" />
           <h2 className="Tech-card-title">Building an AI-enabled point of care device</h2>
           <p className="Techcard-text">Learn how e-con helped a leading US medical device manufacturer</p>
-          <button className="Tech-card-button">Read More</button>
+          <button className="Tech-card-button1">Read More</button>
         </div>
         <div className="Technical-card">
           <img src={Technical2} alt="AI-enabled point of care device" className="Tech-card-image" />
           <h2 className="Tech-card-title">Building an AI-enabled point of care device</h2>
           <p className="Techcard-text">Learn how e-con helped a leading US medical device manufacturer</p>
-          <button className="Tech-card-button">Read More</button>
+          <button className="Tech-card-button2">Read More</button>
         </div>
         <div className="Technical-card">
           <img src={Technical3} alt="AI-enabled point of care device" className="Tech-card-image" />
           <h2 className="Tech-card-title">Building an AI-enabled point of care device</h2>
           <p className="Techcard-text">Learn how e-con helped a leading US medical device manufacturer</p>
-          <button className="Tech-card-button">Read More</button>
+          <button className="Tech-card-button3">Read More</button>
         </div>
       </div>
     </div>
