@@ -67,6 +67,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .custombutton-row {
@@ -298,71 +300,80 @@ margin-top: 15px;
   color: #f1f2f2;
 }
 
-  
-  @media (max-width: 768px) {
-    .content-Blog {
-      flex-direction: column;
-      gap: 0; /* Remove gap between columns on mobile */
-      margin: 0; /* Removed margin to avoid gaps */
-    }
-  
-    .Blog-left-column, .Blog-right-column {
-      width: 100%;
-      padding: 10px; /* Adjust padding for mobile */
-      box-sizing: border-box; /* Ensure padding and border are included in the width */
-    }
-  
-    .Blog-right-column {
-      border-left: none; /* Remove border line */
-    }
-  
-    .blogborder-box {
-      border: none; /* Remove border */
-      background-color: transparent; /* Remove background color */
-    }
-  
-    .custombutton-row {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 100%; /* Full width for mobile */
-    }
-  
-    .blog-icon-button {
-      margin: 5px; /* Adjust spacing between buttons */
-    }
-  
-    .blog-button-group {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px; /* Adjust spacing between buttons */
-    }
-  
-    .blog-medicalimage {
-      display: block;
-      margin: 20px auto; /* Center align image */
-      width: 100%; /* Make image responsive */
-    }
-  
-    .Blog-left-column h1{
-      text-align: center; /* Center align text */
-    }
-    .Blog-left-column p {
-      text-align: justify; /* Center align text */
-    } 
-    .Blog-left-column h3 {
-      text-align: center; /* Center align text */
-    }
-    .Blogrelated-articles {
-      text-align: center; /* Center align related articles */
-    }
-    .blog-icon-share{
-      background-color:#f1f2f2;
-      color:#003873;
-      border: none;
-      padding: 0px;
-    }
-    .CardBlogs p{
-      text-align: center;
-        }
+@media (max-width: 768px) {
+  .content-Blog {
+    flex-direction: column;
+    gap: 0; /* Remove gap between columns on mobile */
+    margin: 0; /* Removed margin to avoid gaps */
   }
+
+  .Blog-left-column, .Blog-right-column {
+    width: 100%;
+    padding: 0; /* Remove padding for mobile */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+
+  .Blog-right-column {
+    border-left: none; /* Remove border line */
+  }
+
+  .blogborder-box {
+    border: none; /* Remove border */
+    background-color: transparent; /* Remove background color */
+    width: 100%; /* Make width 100% */
+    text-align: justify; /* Justify text alignment */
+    padding: 0; /* Remove padding for mobile view */
+  }
+
+  .custombutton-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; /* Full width for mobile */
+  }
+
+  .blog-icon-button {
+    margin: 5px; /* Adjust spacing between buttons */
+  }
+
+  .blog-button-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between buttons */
+  }
+
+  .blog-medicalimage {
+    display: block;
+    margin: 20px auto; /* Center align image */
+    width: 100%; /* Make image responsive */
+  }
+
+  .Blog-left-column h1 {
+    text-align: center; /* Center align text */
+  }
+
+  .Blog-left-column p {
+    text-align: justify; /* Justify text alignment */
+  }
+
+  .Blog-left-column h3 {
+    text-align: center; /* Center align text */
+  }
+
+  .Blogrelated-articles {
+    text-align: center; /* Center align related articles */
+    margin: 20px 0; /* Add vertical margin */
+    padding: 10px; /* Add padding for spacing */
+  }
+
+  .blog-icon-share {
+    background-color: #f1f2f2;
+    color: #003873;
+    border: none;
+    padding: 0px;
+  }
+
+  .CardBlogs p {
+    text-align: center;
+  }
+}
