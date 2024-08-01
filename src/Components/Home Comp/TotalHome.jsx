@@ -8,7 +8,7 @@ import Technical from './6.Technical Artical Page/Technical';
 import Testimonials from './7.Testimonials comp/Testimonials';
 import Whatsapart from './8.Whats apart Page/Whatsapart';
 import CertificationQuality from './9.CertificationQuality Page/CertificationQuality';
-// import Footerpage from '../Footer comp/Footerpage';
+import Footerpage from '../Footer comp/Footerpage';
 
 
 const TotalHome = () => {
@@ -23,7 +23,7 @@ const TotalHome = () => {
       < Testimonials/>
       <Whatsapart />
       <CertificationQuality />
-      {/* <Footerpage/> */}
+      <Footerpage/>
         </div>
     );
 }
