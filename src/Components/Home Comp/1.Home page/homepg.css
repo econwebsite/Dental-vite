@@ -1,4 +1,4 @@
-.Dental-header {
+.oralcamera-Dental-header {
     display: flex;
     width: 100%;
     height: 460px;
@@ -10,7 +10,7 @@
     margin-top: -20px;
 }
 
-.left-Bg {
+.oralcamera-left-Bg {
     flex: 0 0 60%; /* 60% of the width */
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 
-.Right-Dental {
+.oralcamera-Right-Dental {
     flex: 0 0 40%; /* 40% of the width */
     display: flex;
     justify-content: center;
@@ -30,19 +30,19 @@
     box-sizing: border-box;
 }
 
-.Dental-Img {
+.oralcamera-Dental-Img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.total-text {
+.oralcamera-total-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.text-sticky {
+.oralcamera-text-sticky {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -51,11 +51,11 @@
     margin-top: 10px;
 }
 
-.buttons-inform {
+.oralcamera-buttons-inform {
     margin-top: 20px;
 }
 
-.static-text {
+.oralcamera-static-text {
     font-size: 4em; /* Adjust for large screens */
     color: #3443a1;
     margin-top: 20px;
@@ -65,7 +65,7 @@
     line-height: 1.3em;
 }
 
-.contactus-Button {
+.oralcamera-contactus-Button {
     position: relative;
     margin-right: 10px;
     padding: 15px 25px;
@@ -82,7 +82,7 @@
     z-index: 1;
 }
 
-.contactus-Button::before {
+.oralcamera-contactus-Button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -94,16 +94,16 @@
     z-index: -1;
 }
 
-.contactus-Button:hover::before {
+.oralcamera-contactus-Button:hover::before {
     left: 0;
 }
 
-.contactus-Button:hover {
+.oralcamera-contactus-Button:hover {
     color: #f1f2f2;
     border-color: #344ea1;
 }
 
-.getQuote-Button {
+.oralcamera-getQuote-Button {
     margin-right: 10px;
     padding: 15px 25px;
     font-size: 1em;
@@ -119,7 +119,7 @@
     z-index: 1;
 }
 
-.getQuote-Button::before {
+.oralcamera-getQuote-Button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -131,46 +131,46 @@
     z-index: -1;
 }
 
-.getQuote-Button:hover::before {
+.oralcamera-getQuote-Button:hover::before {
     left: 0;
 }
 
-.getQuote-Button:hover {
+.oralcamera-getQuote-Button:hover {
     color: #f1f2f2;
     border-color: #344ea1;
 }
 
 @media (max-width: 800px) {
-    .Dental-header {
+    .oralcamera-Dental-header {
         height: 720px;
     }
-    .Dental-header {
+    .oralcamera-Dental-header {
         flex-direction: column;
     }
 
-    .left-Bg {
+    .oralcamera-left-Bg {
         width: 100%;
         background-image: none;
         align-items: center;
     }
 
-    .Right-Dental {
+    .oralcamera-Right-Dental {
         width: 100%;
     }
 
-    .Dental-Img {
+    .oralcamera-Dental-Img {
         display: none;
         object-fit: fill;
     }
 
-    .total-text {
+    .oralcamera-total-text {
         margin: 0;
         text-align: center;
         align-items: center;
         padding-left: 20px; 
     }
 
-    .left-Bg::before {
+    .oralcamera-left-Bg::before {
         content: "";
         display: block;
         background-image: url('../../assets/dentalbg.jpg');
@@ -181,35 +181,35 @@
         margin-bottom: 10px; 
     }
 
-    .buttons-inform {
+    .oralcamera-buttons-inform {
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-top: 10px;
     }
 
-    .static-text {
+    .oralcamera-static-text {
         font-size: 2em; 
     }
 }
 
 @media (max-width: 500px) {
-    .Dental-header {
+    .oralcamera-Dental-header {
         height: 520px;
     }
-    .left-Bg::before {
+    .oralcamera-left-Bg::before {
         width: 60%;
         height: 200px;
         margin-bottom: 10px;
     }
-    .text-sticky {
+    .oralcamera-text-sticky {
         font-size: 1em;
     }
-    .contactus-Button {
+    .oralcamera-contactus-Button {
         padding: 10px 20px;
         font-size: medium;
     }
-    .getQuote-Button {
+    .oralcamera-getQuote-Button {
         padding: 10px 20px;
         font-size: medium;
     }

@@ -1,31 +1,31 @@
-.Camera-Header {
+.typecamera-Header {
   text-align: center;
   padding: 20px;
 }
 
-.underline {
+.typecamera-underline {
   width: 50%;
   height: 2px;
   background-color: #a2cce4;
   margin: 0 auto 20px;
 }
 
-.Total-cam-blog {
+.typecamera-Total-cam-blog {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.Oral-left {
+.typecamera-Oral-left {
   flex-basis: 45%;
 }
 
-.Oral-right {
+.typecamera-Oral-right {
   flex-basis: 45%;
   text-align: center;
 }
 
-.Oral-image {
+.typecamera-Oral-image {
   width: 60%;
   height: auto;
   display: flex;
@@ -34,7 +34,7 @@
   margin: auto;
 }
 
-.oral-title1 {
+.typecamera-oral-title1 {
   margin: 20px 0 10px;
   color: #00adef;
   font-size: 3em; 
@@ -42,7 +42,8 @@
   font-weight: 900;
   font-style: normal;
 }
-.oral-title2 {
+
+.typecamera-oral-title2 {
   margin: 20px 0 10px;
   font-size: 3em; 
   color: #003873;
@@ -51,32 +52,31 @@
   font-style: normal;
 }
 
-.Oral-paragraph {
+.typecamera-Oral-paragraph {
   text-align: justify;
   margin: 0 0 20px;
   line-height: 30px;
   margin-top: 30px;
   font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1.2em;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.2em;
   color: #093e77;
 }
 
-.Oral-Butons1 {
+.typecamera-Oral-Butons1 {
   display: flex;
   justify-content: right;
   margin-top: 30px;
-
 }
-.Oral-Butons2 {
+
+.typecamera-Oral-Butons2 {
   display: flex;
   justify-content: flex-start;
   margin-top: 30px;
-
 }
 
-.Down-tech-button {
+.typecamera-Down-tech-button {
   padding: 15px 25px;
   background-color: #003873;
   font-size: 1em;
@@ -91,7 +91,8 @@
   transition: color 0.4s ease, border-color 0.4s ease;
   z-index: 1;
 }
-.Down-tech-button::before {
+
+.typecamera-Down-tech-button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -102,17 +103,17 @@
   transition: left 0.4s ease;
   z-index: -1; /* Ensure the pseudo-element is behind the text */
 }
-.Down-tech-button:hover::before {
+
+.typecamera-Down-tech-button:hover::before {
   left: 0;
 }
 
-.Down-tech-button:hover {
+.typecamera-Down-tech-button:hover {
   color: #f1f2f2; /* Text color when hovered */
   border-color:#00aeef; 
 }
 
-
-.Get-Sample-button {
+.typecamera-Get-Sample-button {
   margin: 0 10px;
   padding: 15px 25px;
   font-size: 1em;
@@ -128,7 +129,8 @@
   transition: color 0.4s ease, border-color 0.4s ease;
   z-index: 1;
 }
-.Get-Sample-button::before {
+
+.typecamera-Get-Sample-button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -139,53 +141,61 @@
   transition: left 0.4s ease;
   z-index: -1; /* Ensure the pseudo-element is behind the text */
 }
-.Get-Sample-button:hover::before {
+
+.typecamera-Get-Sample-button:hover::before {
   left: 0;
 }
 
-.Get-Sample-button:hover {
+.typecamera-Get-Sample-button:hover {
   color: #f1f2f2; /* Text color when hovered */
   border-color:#00aeef; 
 }
 
-
 @media (max-width: 768px) {
-  .Total-cam-blog {
+  .typecamera-Total-cam-blog {
     flex-direction: column;
   }
-  .Oral-left {
+
+  .typecamera-Oral-left {
     order: 1;
     margin-bottom: 20px;
   }
-  .Oral-right {
+
+  .typecamera-Oral-right {
     order: 2;
   }
-  .Oral-image {
+
+  .typecamera-Oral-image {
     width: 50%;
     height: auto;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
   }
-  .left, .right {
+
+  .typecamera-Oral-left, .typecamera-Oral-right {
     flex-basis: 100%;
   }
-  .oral-title1 {
+
+  .typecamera-oral-title1 {
     font-size: 2em; 
   }
-  .oral-title2 {
+
+  .typecamera-oral-title2 {
     font-size: 2em; 
   }
-  .Oral-paragraph {
+
+  .typecamera-Oral-paragraph {
     font-size: 1em;
   }
-  
-.Get-Sample-button {
-  padding: 10px 20px;
-  font-size: small;
-}
-.Down-tech-button{
-  padding: 10px 20px;
-  font-size: small;
-}
+
+  .typecamera-Get-Sample-button {
+    padding: 10px 20px;
+    font-size: small;
+  }
+
+  .typecamera-Down-tech-button {
+    padding: 10px 20px;
+    font-size: small;
+  }
 }

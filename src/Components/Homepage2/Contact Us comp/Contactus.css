@@ -1,0 +1,76 @@
+.total-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f2f2; 
+    color: black; 
+    padding: 40px; 
+    font-family: Arial, sans-serif; 
+}
+
+.Contact-us {
+    margin-top: 40px;
+   font-size: 3em; 
+    color: #003873;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+.Spam-questions {
+    font-size: 1.2rem; /* Increased font size for emphasis */
+    color: #344ea1; /* Text color */
+    margin-bottom: 30px; /* Increased bottom margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact-ted {
+    width: 100%;
+    max-width: 900px; /* Increased max-width for better form width */
+    background-color: #ffffff; /* Background color */
+    padding: 30px; /* Increased padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+    margin-top: 20px; /* Top margin for spacing */
+}
+
+.ant-form-item-label > label {
+    color: #003873; /* Label color */
+}
+
+.ant-form-item-control-input {
+    background-color: #ffffff; /* Input background color */
+}
+
+.ant-btn-primary {
+    background-color: #003873; /* Button color */
+    border-color: #003873; /* Button border color */
+}
+
+.ant-btn-primary:hover {
+    background-color: #002751; /* Darker shade on hover */
+    border-color: #002751; /* Darker border on hover */
+}
+
+/* Additional styling for responsive design */
+@media (max-width: 768px) {
+    .total-contact {
+        padding: 20px; /* Reduced padding on smaller screens */
+    }
+
+    .Contact-us {
+        font-size: 2rem; /* Adjusted font size */
+    }
+
+    .Spam-questions {
+        font-size: 1.2rem; /* Adjusted font size */
+    }
+
+    .Contact-ted {
+        padding: 20px; /* Reduced padding */
+    }
+}

@@ -1,0 +1,43 @@
+/* Carousel.css */
+.carousel-container {
+  width: 100%; /* Full width of the viewport */
+  height: auto; /* Adjust height automatically based on content */
+  position: static;
+  top: 0; /* Stick to the top */
+  overflow: hidden; /* Prevent horizontal overflow */
+  background: #fff; /* Optional: set a background color */
+  margin-top: 1px;
+}
+
+.carousel-slide {
+  /* Ensure each slide fills the container */
+  display: flex;
+  justify-content: center; /* Center slides horizontally */
+}
+
+.carousel-slide img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below images */
+}
+
+/* Custom dot styling */
+.slick-dots {
+  bottom: 10px; /* Position dots from the bottom */
+}
+
+.slick-dots li button:before {
+  color: #000; /* Default dot color */
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00aeef; /* Active dot color */
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .carousel-container {
+    display: none;
+  } 
+}

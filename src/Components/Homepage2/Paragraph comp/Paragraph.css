@@ -1,0 +1,31 @@
+/* Paragraph.css */
+
+.containerparagraph {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.paragraphtext {
+  text-align: justify;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #344ea1;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .containerparagraph {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .paragraphtext {
+    font-size: 1em; /* Adjust font size if needed */
+    padding: 10px;
+  }
+}

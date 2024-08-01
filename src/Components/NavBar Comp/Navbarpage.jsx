@@ -24,7 +24,7 @@ const Navbarpage = () => {
         <div className="navbarpage-divider"></div>
         <a href="#downloads" onClick={() => handleNavigation('/downloads', true)}>Downloads</a>
         <div className="navbarpage-divider"></div>
-        <a href="#casestudies" onClick={() => handleNavigation('/CaseStudies', true)}>CaseStudies</a>
+        <a href="#casestudies" onClick={() => handleNavigation('/homepage2', true)}>Homepage2</a>
         <div className="navbarpage-divider"></div>
         <a href="#blog" onClick={() => handleNavigation('/Blog', true)}>Blog</a>
         <div className="navbarpage-divider"></div>

@@ -1,0 +1,90 @@
+/* Ensure no horizontal scrolling */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.resource-container {
+    width: 100%;
+    min-height: 100vh; /* Ensures container takes at least full viewport height */
+    background-color: #f1f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.resource-heading {
+    font-size: 2.5em; /* Adjusted heading font size */
+    color: #003873;
+    margin-bottom: 20px;  
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Container for tabs */
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Tabs styling */
+.custom-tabs .ant-tabs-tab {
+    font-size: 1.2em; /* Adjusted font size for tabs */
+    color: #344ea1;
+    padding: 10px 15px; /* Adjust padding for better spacing */
+    margin: 0; /* Remove margin to reduce space between tabs */
+}
+
+/* Active tab styling */
+.custom-tabs .ant-tabs-tab-active {
+    font-size: 1.2em; /* Ensures active tab has the same font size */
+    color: #003873; /* Color change for active tab for better visibility */
+}
+
+/* Tabs content styling */
+.ant-tabs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Specific styling for each tab pane */
+.ant-tabs-tabpane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px; /* Adjust padding to decrease space */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .custom-tabs .ant-tabs-tab {
+        font-size: 1em; /* Smaller font size for tabs on mobile */
+        padding: 8px 10px; /* Reduced padding on mobile */
+    }
+
+    .resource-heading {
+        font-size: 2em; /* Smaller font size for heading on mobile */
+    }
+
+    .ant-tabs-tabpane {
+        padding: 5px; /* Further reduced padding on mobile */
+    }
+}
+
+/* Additional CSS to reduce space between tabs specifically for mobile view */
+@media (max-width: 768px) {
+    .ant-tabs-bar {
+        margin-bottom: 0; /* Remove default margin */
+    }
+
+    .ant-tabs-tab {
+        margin: 0; /* Remove margin to decrease space between tabs */
+    }
+}
