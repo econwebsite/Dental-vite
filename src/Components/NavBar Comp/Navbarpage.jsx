@@ -7,12 +7,10 @@ const Navbarpage = () => {
 
   const navigate = useNavigate();
 
-  const handleNavigation = (route, openInNewTab = false) => {
-    if (openInNewTab) {
-      window.open(route, '_blank');
-    } else {
+  const handleNavigation = (route) => {
+   
       navigate(route);
-    }
+    
   };
 
   return (
@@ -20,15 +18,15 @@ const Navbarpage = () => {
       <div className='Nav-align'>
       <img src={econlogo} alt="Econ Logo" className="navbarpage-logo" />
       <div className="navbarpage-navItems">
-        <a href="#products" onClick={() => handleNavigation('/products', true)}>Products</a>
+        <a href="#products" onClick={() => handleNavigation('/product')}>Products</a>
         <div className="navbarpage-divider"></div>
-        <a href="#downloads" onClick={() => handleNavigation('/downloads', true)}>Downloads</a>
+        <a href="#downloads" onClick={() => handleNavigation('/downloads')}>Downloads</a>
         <div className="navbarpage-divider"></div>
-        <a href="#casestudies" onClick={() => handleNavigation('/homepage2', true)}>Homepage2</a>
+        <a href="#casestudies" onClick={() => handleNavigation('/homepage2')}>Homepage2</a>
         <div className="navbarpage-divider"></div>
-        <a href="#blog" onClick={() => handleNavigation('/Blog', true)}>Blog</a>
+        <a href="#blog" onClick={() => handleNavigation('/Blog')}>Blog</a>
         <div className="navbarpage-divider"></div>
-        <a href="#about" onClick={() => handleNavigation('/About', true)}>About</a>
+        <a href="#about" onClick={() => handleNavigation('/About')}>About</a>
      
      
       <input type="text" placeholder='Search..' className="navbarpage-searchInput" />
