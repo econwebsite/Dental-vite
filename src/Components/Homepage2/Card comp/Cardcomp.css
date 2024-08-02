@@ -78,6 +78,7 @@
   outline: none;
   transition: color 0.4s ease;
   z-index: 1;
+  
 }
 
 .second-home-card-button::before {
@@ -124,8 +125,14 @@
     width: 100%; /* Full width on very small screens */
     height: auto; /* Ensure height adjusts to content */
   }
-
+  .second-home-card:hover {
+    transform: none;
+  }
   .second-home-card-img {
     height: 200px; /* Adjust image height for smaller screens */
+  }
+  .second-home-card-button {
+    padding: 10px 10px;
+
   }
 }

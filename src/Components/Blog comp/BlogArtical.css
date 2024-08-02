@@ -8,7 +8,13 @@
 .Artical-paragraphs p {
   margin: 0;
   padding: 10px;
-  color: #033873;
+  font-size: 1em;
+  cursor: pointer;
+  color: #003873;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  
 }
 
 .mail-color {
@@ -20,12 +26,12 @@
   align-items: center; /* Align items vertically */
   background-color: #f1f2f2;
   margin: 20px auto;
-  max-width: 70%;
+  max-width: 80%;
   padding: 30px;
 }
 
 .Articalleft-side {
-  width: 30%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center; /* Center horizontally */
@@ -33,18 +39,23 @@
 }
 
 .Articalleft-side p {
-  color: #033873;
-  margin: 5px 0; /* Adjust margin for consistent spacing */
+  margin: 1px 0; 
+  color: #003873;
+  text-align: justify; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0.8em;
 }
 
 .Articalperson-photo {
   width: 100px;
   height: auto;
-  margin-bottom: 0; /* Remove extra margin */
+  margin-bottom: 0; 
 }
 
 .Articalright-side {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center text vertically */
@@ -53,7 +64,14 @@
 .Articalright-side p {
   text-align: justify;
   color: #033873;
-  margin: 0; /* Remove extra margin */
+  line-height: 1.8em;
+  color: #003873;
+  text-align: justify; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0.9em;
+  
 }
 
 .Articalnotification-box {
@@ -66,10 +84,17 @@
 .Articalnotification-box h3 {
   color: #00aeef;
   font-size: 2em;
+  font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
 }
 
 .Articalnotification-box p {
   color: #033873;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .Articalsubscribe-row {
@@ -89,7 +114,7 @@
 
 .Articalknow-button {
   padding: 10px 40px;
-  background-color: #69ba2f;
+  background-color: #033873;
   border: none;
   color: white;
   cursor: pointer;
@@ -99,7 +124,7 @@
   text-align: center;
   outline: none;
   transition: color 0.4s ease, border-color 0.4s ease;
-  z-index: 1; /* Ensure button text is above the pseudo-element */
+  z-index: 1; 
 }
 
 .Articalknow-button::before {
@@ -109,7 +134,7 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #00aeef; /* Color to fill */
+  background-color: #69ba2f; /* Color to fill */
   transition: left 0.4s ease;
   z-index: -1; /* Ensure the pseudo-element is behind the text */
 }
@@ -120,7 +145,7 @@
 
 .Articalknow-button:hover {
   color: #f1f2f2; /* Text color when hovered */
-  border-color: #00aeef; /* Border color when hovered */
+  border-color: #69ba2f; /* Border color when hovered */
 }
 
 .dental-video-right iframe {

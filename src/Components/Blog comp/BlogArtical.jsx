@@ -22,6 +22,7 @@ const BlogArtical = () => {
       </div>
       <div className="Articalnotification-box">
         <h3>Get notified of new articles</h3>
+        <br></br>
         <p>Subscribe to our blog to be noticed on new post & product release.</p>
         <div className="Articalsubscribe-row">
           <input type="email" placeholder="Your email address" className="Artical-inputemail" />

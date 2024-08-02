@@ -7,6 +7,7 @@ import ContactUs from "../Homepage2/Contact Us comp/ContactUs"
 import RectangleBox from "../Home Comp/3.Rectangle Page/RectangleBox"
 import Dentalvideopg from "../Home Comp/4.Dental video Page/Dentalvideopg"
 import Testimonials from "../Home Comp/7.Testimonials comp/Testimonials"
+import Footer from "../Footer comp/Footerpage"
 const Homepage2 = () => {
     return (
         <div style={{with:"100%"}}>
@@ -14,10 +15,13 @@ const Homepage2 = () => {
         <Paragraph/>
         <Cardcomp/>
         <Tabspage/>
+        <div style={{marginTop:"20px"}}></div>
         <RectangleBox/>
         <Dentalvideopg/>
         <Testimonials/>
+        <div style={{marginTop:"90px"}}></div>
         <ContactUs/>
+        <Footer/>
         </div>
     );
 }

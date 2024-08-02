@@ -333,9 +333,9 @@ const ContactUs = () => {
           <Row justify="end">
             <Col>
               <Form.Item>
-                <Button type="primary" htmlType="submit">
+                <button type="primary" htmlType="submit" className='Contactus-btn'>
                   Submit
-                </Button>
+                </button>
               </Form.Item>
             </Col>
           </Row>

@@ -1,7 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-  }
+
   
   .Blogpage-cointainer {
     background-color: #f1f2f2;
@@ -31,7 +28,7 @@ body {
   .Blog-right-column {
     width: 25%;
     padding: 20px;
-    border-left: 1px solid black; /* Remove this line in mobile view */
+    border-left: 1px solid #d3d3d3; /* Remove this line in mobile view */
   }
   
   .Blog-left-column h1 {
@@ -52,16 +49,17 @@ body {
     font-style: normal;
   }
   .blogborder-box p{
-    color: #344ea1;
+    width: 100%;
+    color: #003873;
     text-align: justify; 
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
-  .Blog-left-column h3 {
-    text-align: left;
+  .blogborder-box h3 {
+width: 100%;
     color: #00aeef;
     font-size: 1.5em; 
     font-family: "Roboto", sans-serif;
@@ -100,14 +98,17 @@ body {
   }
   
   .blogborder-box {
-    border: 1px solid #ccc;
+    border: 1px solid #d3d3d3;
     background-color: white;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .blog-medicalimage {
     height: auto;
-    width: 450px; /* Make the image responsive */
+    width: 600px; /* Make the image responsive */
     object-fit: contain; /* Maintain aspect ratio */
     margin: 20px 0;
   }
@@ -119,9 +120,10 @@ body {
   }
   
   .blog-explore-button{
-    padding: 15px 40px;
+    padding: 15px 20px;
     background-color: #003873;
     border: none;
+    font-size: 1em;
     color: white;
     cursor: pointer;
     border: none; /* Remove border */
@@ -156,9 +158,10 @@ body {
   }
 
   .blog-selector-button{
-    padding: 15px 30px;
+    padding: 15px 20px;
     background-color: #00aeef;
     border: none;
+    font-size: 1em;
     color: white;
     cursor: pointer;
     border: none; /* Remove border */
@@ -199,8 +202,8 @@ body {
   
   .Blogrelated-articles p {
     text-align: left;
-    color: #003873;
-    font-size: 1.2em;
+    color: #344ea1;
+    font-size: 1.4em;
   }
   
   .Cardrelated-image {
@@ -208,7 +211,7 @@ body {
   }
   
   .CardBlogs {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 5px;
   }
   .CardBlogs h2{
@@ -227,9 +230,7 @@ margin-top: 15px;
 
 
   
-.Blogreadmore-1,
-.Blogreadmore-2,
-.Blogreadmore-3 {
+.Blogreadmore-1{
   padding: 10px 50px;
   margin-top: 10px;
   border-radius: 5px;
@@ -238,18 +239,14 @@ margin-top: 15px;
   overflow: hidden;
   text-align: center;
   outline: none;
-  transition: color 0.4s ease, background-color 0.4s ease;
   z-index: 1;
-}
-/* sdss */
-.Blogreadmore-1 {
-  background-color: #00aeef;
+  background-color: #003873;
   color: white;
+
 }
 
-.Blogreadmore-1::before,
-.Blogreadmore-2::before,
-.Blogreadmore-3::before {
+
+.Blogreadmore-1::before{
   content: '';
   position: absolute;
   top: 0;
@@ -264,39 +261,11 @@ margin-top: 15px;
   background-color: #69ba2f;
 }
 
-.Blogreadmore-1:hover::before,
-.Blogreadmore-2:hover::before,
-.Blogreadmore-3:hover::before {
+.Blogreadmore-1:hover::before{
   left: 0;
 }
 
 .Blogreadmore-1:hover {
-  color: #f1f2f2;
-}
-
-.Blogreadmore-2 {
-  background-color: #344ea1;
-  color: white;
-}
-
-.Blogreadmore-2::before {
-  background-color: #69ba2f;
-}
-
-.Blogreadmore-2:hover {
-  color: #f1f2f2;
-}
-
-.Blogreadmore-3 {
-  background-color: #003873;
-  color: white;
-}
-
-.Blogreadmore-3::before {
-  background-color: #00aeef;
-}
-
-.Blogreadmore-3:hover {
   color: #f1f2f2;
 }
 

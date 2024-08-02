@@ -1,20 +1,15 @@
-/* Ensure no horizontal scrolling */
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-}
 
-.resource-container {
+
+.products-container {
     width: 100%;
     min-height: 100vh; /* Ensures container takes at least full viewport height */
-    background-color: #f1f2f2;
+    background-color:white;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
 }
 
-.resource-heading {
+.products-heading {
     font-size: 2.5em; /* Adjusted heading font size */
     color: #003873;
     margin-bottom: 20px;  
@@ -24,7 +19,7 @@ html, body {
 }
 
 /* Container for tabs */
-.tabs-container {
+.Products-Tabs {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +64,7 @@ html, body {
         padding: 8px 5px; /* Reduced padding on mobile */
     }
 
-    .resource-heading {
+    .products-heading {
         font-size: 2em; /* Smaller font size for heading on mobile */
     }
 

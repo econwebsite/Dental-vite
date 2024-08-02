@@ -56,7 +56,7 @@ line-height: 30px;
   padding: 10px 40px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #69ba2f; /* Default background color */
+  background-color: #00aeef; /* Default background color */
   color: aliceblue; /* Default text color */
   border: none; /* Remove border */
   border-radius: 5px;
@@ -75,7 +75,7 @@ line-height: 30px;
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #00aeef; /* Color to fill */
+  background-color: #003873; /* Color to fill */
   transition: left 0.4s ease;
   z-index: -1; /* Ensure the pseudo-element is behind the text */
 }
@@ -86,7 +86,7 @@ line-height: 30px;
 
 .know-more-button:hover {
   color: #f1f2f2; /* Text color when hovered */
-  border-color: #00aeef; /* Border color when hovered */
+  border-color: #003873; /* Border color when hovered */
 }
 
 
