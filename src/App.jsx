@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import TotalBlog from './Components/Blog comp/TotalBlog';
 import TotalHome from './Components/Home Comp/TotalHome';

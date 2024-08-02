@@ -21,7 +21,7 @@ body {
   align-items: center;
   padding: 0;
   margin: 0;
-  position:sticky; 
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -31,7 +31,7 @@ body {
 
 /* Logo Styles */
 .navbarpage-logo {
-  height: 50px; 
+  height: 50px;
 }
 
 /* Navigation Items Styles */
@@ -45,7 +45,7 @@ body {
   flex-wrap: wrap; /* Allow wrapping to prevent overflow */
 }
 
-.navbarpage-navItems a {
+.navbarpage-navItems a, .navbarpage-navItems .link {
   margin: 0 10px; /* Margin around navigation links */
   text-decoration: none;
   color: #003873; /* Dark color for contrast */
@@ -54,7 +54,8 @@ body {
   font-size: 14px; /* Default font size */
   position: relative; /* Required for positioning the divider */
 }
-.navbarpage-navItems a:hover {
+
+.navbarpage-navItems a:hover, .navbarpage-navItems .link:hover {
   color: #69ba2f;
 }
 
@@ -89,7 +90,7 @@ body {
 .navbarpage-phoneIcon {
   color: #003873; /* Dark color for contrast */
   font-size: 24px; /* Font size */
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .navbarpage-contactDetails {
@@ -121,7 +122,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 12px; /* Font size */
-  margin: 0; 
+  margin: 0;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -155,8 +156,8 @@ body {
   .navbarpage-navbar {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
-    padding: 4 10px; /* Adjust padding */
-    position: relative; 
+    padding: 4px 10px; /* Adjust padding */
+    position: relative;
   }
 
   .navbarpage-logo {
@@ -205,10 +206,11 @@ body {
     width: 100%;
     overflow: hidden; /* Ensure content doesn't overflow */
   }
-  .Nav-align{
+
+  .Nav-align {
     display: flex;
     justify-content: space-around;
- }
+  }
 
   .navbarpage-logo {
     height: 40px; /* Slightly smaller logo for 1024px screens */
@@ -222,7 +224,7 @@ body {
     width: auto; /* Allow content to expand within the navbar */
   }
 
-  .navbarpage-navItems a {
+  .navbarpage-navItems a, .navbarpage-navItems .link {
     font-size: 13px; /* Smaller font size for 1024px screens */
     margin: 0 8px; /* Consistent margin */
   }
@@ -274,69 +276,41 @@ body {
   .navbarpage-navItems {
     flex-direction: row; /* Horizontal layout */
     justify-content: center; /* Center items within the available space */
-
     flex-wrap: nowrap; /* Prevent wrapping */
     width: auto; /* Allow content to expand within the navbar */
   }
 
-  .navbarpage-navItems a {
-    font-size: 16px; /* Larger font size for larger screens */
-    margin: 10 10px; /* Increased margin */
+  .navbarpage-navItems a, .navbarpage-navItems .link {
+    font-size: 14px; /* Font size */
+    margin: 0 15px; /* Consistent margin */
   }
 
   .navbarpage-searchInput {
-    width: 300px; /* Increase width for search input */
-    margin-left: 15px; /* Space between search input and navigation items */
-    
+    width: 250px; /* Fixed width for search input */
+    padding: 15px;
   }
-  .Nav-align{
-    display: flex;
-    width: 100%;
- }
 
   .navbarpage-contact {
-    margin-left: 15px; /* Increased space between contact section and search input */
+    display: flex;
+    align-items: center;
   }
 
   .navbarpage-phoneIcon {
-    font-size: 24px; /* Larger font size */
-    margin-right: 10px; /* Increased spacing */
+    font-size: 24px; /* Adjusted font size */
+    margin-right: 10px; /* Adjusted spacing */
   }
 
   .navbarpage-contactDetails {
-    margin-right: 10px; /* Increased spacing */
+    margin-right: 10px;
   }
 
   .navbarpage-getQuoteButton {
-    padding: 12px 20px; /* Increased padding */
-    font-size: 14px; /* Larger font size */
-    margin-left: 20px; /* Increased space between button and contact details */
+    padding: 12px 20px; /* Adjusted padding */
+    font-size: 14px; /* Font size */
+    margin-left: 20px; /* Space between button and contact details */
   }
 
   .navbarpage-divider {
     display: inline-block; /* Ensure divider is visible */
   }
-}
-
-
-@media screen and (min-width: 1600px) {
-.navbarpage-navbar{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.Nav-align{
-   max-width: 1600px;
-   display: flex;
-   justify-content: space-between;
-    align-items: center;
-}
-.navbarpage-contact {
-  display: flex;
-  flex-direction: row; /* Arrange contact items in a row */
-  align-items: center;
-  justify-content:flex-end;
-}
-
 }
