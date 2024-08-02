@@ -5,7 +5,7 @@ import './index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
-
+// ss
 AOS.init();
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
