@@ -150,46 +150,60 @@ body {
 .navbarpage-getQuoteButton:hover {
   color: #f1f2f2;
 }
-
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .navbarpage-navbar {
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
     padding: 4px 10px; /* Adjust padding */
-    position: relative;
   }
 
   .navbarpage-logo {
     height: 40px; /* Adjusted height for smaller screens */
-    margin-bottom: 10px; /* Space below logo */
-  }
-
-  .navbarpage-navItems {
-    margin-bottom: 10px; /* Space below nav items */
   }
 
   .navbarpage-searchInput {
-    margin-bottom: 10px; /* Space below search input */
+    margin: 10px 0; /* Space above and below search input */
+    width: calc(100% - 20px); /* Full width minus padding */
   }
 
-  .navbarpage-contact {
-    margin-bottom: 10px; /* Space below contact section */
+  .navbarpage-toggleButton {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #003873;
+    cursor: pointer;
+    margin-left: auto; /* Align toggle button to the right */
   }
 
-  .navbarpage-phoneIcon {
-    font-size: 20px; /* Adjusted font size for smaller screens */
-    margin-right: 5px; /* Adjusted spacing */
+  .navbarpage-mobileMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f1f2f2;
+    width: 100%;
+    position: absolute;
+    top: 60px; /* Adjust based on logo height */
+    left: 0;
+    padding: 10px 0;
+    z-index: 1000;
   }
 
-  .navbarpage-contactDetails {
-    margin-right: 5px; /* Adjusted spacing */
+  .navbarpage-mobileMenu a {
+    margin: 10px 0; /* Space between menu items */
+    text-decoration: none;
+    color: #003873;
+    font-size: 16px;
+  }
+
+  .navbarpage-mobileMenu p {
+    margin: 10px 0; /* Space above and below text */
+    color: #003873;
   }
 
   .navbarpage-getQuoteButton {
-    padding: 6px 12px; /* Adjusted padding */
-    font-size: 12px; /* Font size */
-    margin-left: 5px; /* Space between button and contact details */
+    margin: 10px 0; /* Space above and below button */
+    padding: 8px 16px;
   }
 
   .navbarpage-divider {
@@ -198,18 +212,19 @@ body {
 }
 
 /* Tablet (1024px) and Above */
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px){
   .navbarpage-navbar {
     flex-direction: row; /* Horizontal layout */
     align-items: center;
     padding: 10px 20px;
     width: 100%;
+    justify-content: space-evenly;
     overflow: hidden; /* Ensure content doesn't overflow */
   }
 
   .Nav-align {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .navbarpage-logo {

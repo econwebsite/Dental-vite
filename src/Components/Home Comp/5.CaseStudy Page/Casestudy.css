@@ -33,7 +33,7 @@
 }
 
 .Case-images {
-  width: 290px; /* Adjust as needed */
+  width: 295px; /* Adjust as needed */
   height: auto; /* Maintain aspect ratio */
   margin-right: 20px; /* Space between image and content */
   transform: translateX(-10px); /* Move image 10px to the left */
@@ -44,8 +44,6 @@
   flex-direction: column;
   align-items: flex-start; /* Align text to the left */
   justify-content: center;
-  margin: 0; /* Remove extra margin */
-  padding: 0; /* Remove padding to avoid extra space */
   text-align: left; /* Left-align text within the container */
   width: 55%; 
 }
@@ -57,6 +55,7 @@
   font-weight: 100;
   font-style: normal;
   font-size: 1.5em;
+  line-height: 1.2em;
   color: #093e77;
 
 }
@@ -64,11 +63,11 @@
 .Class-para {
   width: 100%;
   text-align: left; /* Left-align text within container */
-  line-height: 25px;
+  line-height: 1.2em;
   color: #344ea1;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
-  margin-top: 10px;
+  margin-top: 1px;
   font-size: 1em;
   font-style: normal;
 }
@@ -76,7 +75,7 @@
 .read-morebtn {
   display: inline-block;
   padding: 10px 40px;
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 1em;
   border: none;
   background-color: #344ea1; /* Default background color */

@@ -14,9 +14,11 @@ function App() {
     <>
   
     <BrowserRouter>
-     <Navbarpage/> 
+    
     <div className='fixed-container'>
+    <Navbarpage/> 
       <Routes>
+        
         <Route path="/" element={<TotalHome />} />
         <Route path="/blog" element={<TotalBlog />} />
         <Route path="/homepage2" element={<Homepage2/>} />

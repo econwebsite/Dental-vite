@@ -23,9 +23,9 @@ const Casestudy = () => {
           <p className='Case-Heading'>Building an AI-embeded point of care device with a custom liquid lens camera</p>
           <p className='Class-para'>Learn how e-con helped a leading US medical device manufacturer build an AI-enabled small form factor point of care devices with an autofocus camera</p>
           <button className="read-morebtn">Read More</button>
-          <br></br>
         </div>
       </div>
+      <br></br>
     </div>
   );
 };
