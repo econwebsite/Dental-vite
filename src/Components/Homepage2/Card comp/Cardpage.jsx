@@ -30,7 +30,7 @@ const Cardpage = () => {
             <img src={card.imgSrc} alt={card.title} className="second-home-card-img" />
             <h2 className="second-home-card-title">{card.title}</h2>
             <p className="second-home-card-paragraph">{card.paragraph}</p>
-            <button className="second-home-card-button">Know More</button>
+            <button className="second-home-card-button">Know more</button>
           </div>
         </div>
       ))}

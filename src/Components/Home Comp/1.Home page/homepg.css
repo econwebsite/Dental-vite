@@ -67,6 +67,9 @@
 
 .oralcamera-contactus-Button {
     position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     margin-right: 10px;
     padding: 15px 25px;
     font-size: 1em;
@@ -107,6 +110,9 @@
     margin-right: 10px;
     padding: 15px 25px;
     font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     background-color: #00adef;
     color: white;
     border-radius: 5px;
@@ -211,6 +217,6 @@
     }
     .oralcamera-getQuote-Button {
         padding: 10px 20px;
-        font-size: medium;
+        font-size: small;
     }
 }

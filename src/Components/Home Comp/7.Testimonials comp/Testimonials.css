@@ -116,9 +116,12 @@ body {
 
 .read-more-button {
   background-color: #344ea1;
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
   color: white;
   border: none;
-  padding: 10px 30px;
+  padding: 10px 35px;
   cursor: pointer;
   font-size: 1em;
   border-radius: 5px;

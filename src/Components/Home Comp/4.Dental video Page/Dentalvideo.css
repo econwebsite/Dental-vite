@@ -54,7 +54,10 @@ line-height: 30px;
 .know-more-button {
   margin-top: 20px;
   padding: 10px 40px;
-  font-size: 16px;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
   cursor: pointer;
   background-color: #00aeef; /* Default background color */
   color: aliceblue; /* Default text color */
@@ -139,5 +142,9 @@ line-height: 30px;
   }
   .dental-videos-content p {
   font-size: 1em;
+  }
+  .know-more-button{
+    padding: 10px 30px;
+    font-size: small;
   }
 }

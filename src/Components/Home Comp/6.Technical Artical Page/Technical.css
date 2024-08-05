@@ -57,9 +57,12 @@ color: #093e77;
 .Tech-card-button1,
 .Tech-card-button2,
 .Tech-card-button3 {
-  padding: 10px 50px;
+  padding: 10px 40px;
   border-radius: 5px;
   font-size: 1em;
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
   border: none;
   position: relative;
   overflow: hidden;

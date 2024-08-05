@@ -74,10 +74,13 @@
 
 .read-morebtn {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 10px 30px;
   margin-top: 5px;
   font-size: 1em;
   border: none;
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
   background-color: #344ea1; /* Default background color */
   color: #fff; /* Default text color */
   border-radius: 5px;
