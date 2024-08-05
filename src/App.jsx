@@ -7,8 +7,8 @@ import TotalBlog from './Components/Blog comp/TotalBlog';
 import TotalHome from './Components/Home Comp/TotalHome';
 import Navbarpage from './Components/NavBar Comp/Navbarpage';
 import Homepage2 from './Components/Homepage2/Homepage2';
-import Totalproducts from './Components/product comp/Totalproducts';
-
+import Product from './Components/Product/Product';
+import Footerpage from "./Components/Footer comp/Footerpage";
 function App() {
   return (
     <>
@@ -22,11 +22,13 @@ function App() {
         <Route path="/" element={<TotalHome />} />
         <Route path="/blog" element={<TotalBlog />} />
         <Route path="/homepage2" element={<Homepage2/>} />
-        <Route path="/product" element={<Totalproducts/>} />
+        <Route path="/product" element={<Product/>} />
     
       </Routes>
       </div>
+      
     </BrowserRouter> 
+    <Footerpage/>
     </>
   );
 }

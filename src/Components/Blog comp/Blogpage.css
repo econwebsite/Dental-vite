@@ -343,7 +343,9 @@ margin-top: 15px;
     margin: 20px 0; /* Add vertical margin */
     padding: 10px; /* Add padding for spacing */
   }
-
+  .Blogrelated-articles p{
+    text-align: center; /* Center align related articles */
+  }
   .blog-icon-share {
     background-color: #f1f2f2;
     color: #003873;
@@ -353,5 +355,13 @@ margin-top: 15px;
 
   .CardBlogs p {
     text-align: center;
+  }
+  .blog-selector-button{
+font-size: small;
+padding: 10px 20px;
+  }
+  .blog-explore-button{
+    font-size: small;
+    padding: 10px 20px;
   }
 }

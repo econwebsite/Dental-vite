@@ -121,7 +121,10 @@ body {
   color: white;
   border: none;
   cursor: pointer;
-  font-size: 12px; /* Font size */
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  font-size: 1em; /* Font size */
   margin: 0;
   position: relative;
   overflow: hidden;
@@ -203,7 +206,8 @@ body {
 
   .navbarpage-getQuoteButton {
     margin: 10px 0; /* Space above and below button */
-    padding: 8px 16px;
+    padding: 8px 15px;
+    font-size: small;
   }
 
   .navbarpage-divider {

@@ -23,7 +23,6 @@ const TotalHome = () => {
       < Testimonials/>
       <Whatsapart />
       <CertificationQuality />
-      <Footerpage/>
         </div>
     );
 }

@@ -21,7 +21,6 @@ const Homepage2 = () => {
         <Testimonials/>
         <div style={{marginTop:"90px"}}></div>
         <ContactUs/>
-        <Footer/>
         </div>
     );
 }

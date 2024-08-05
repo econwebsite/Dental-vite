@@ -1,0 +1,16 @@
+
+.productLeftSide .carousel-indicators{
+bottom: -3em;
+}
+.productLeftSide .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ccc !important;
+}
+.productLeftSide .carousel-indicators .active{
+    background-color: #00aeef !important;
+}
+.productLeftSide .carousel-control-next, .productLeftSide .carousel-control-prev{
+    display: none !important;
+}
