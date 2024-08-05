@@ -2,10 +2,21 @@ import React from 'react';
 import "./Specification.css"
 const Specification = () => {
     return (
-        <div className='Specif-tot'>
-     <p>e-con Systems offers a diverse range of GigE series cameras, providing high-resolution imaging even in low light conditions and supporting longer cable lengths. Using standard interfaces such as Power over Ethernet (PoE) with IEEE 802.3af compliance allows GigE cameras to transmit power as well as data over a single GigE interface. This GigE camera's built-in ISP offers imaging controls - ensuring exceptional image quality. With the direct connect interface - they can connect multiple cameras over a network, supporting synchronization through Precision Time Protocol (PTP). This series ensures high-quality and easy data sharing with its H.264/H.265 video encoding capability. Additionally, the camera supports the ONVIF application.</p>
-        
+       
+        <div className='specification-para'>
+           <li>Macro imaging with uniform focus (5mm or less)</li>
+        <li>High Depth of field</li>
+        <li>(min 5mm – 70mm)</li>
+        <li>Accurate colour reproduction</li>
+        <li>White Balancing Adjustment for different lighting</li>
+        <li>Resolution - FHD or above</li>
+        <li>Lens TTL ~ 7mm or less</li>
+        <li>Wide angle FOV ~ 90 deg</li>
+        <li>USB 2.0 Interface</li>
+        <li>Dental Software compatibility</li>
         </div>
+   
+    
     );
 }
 

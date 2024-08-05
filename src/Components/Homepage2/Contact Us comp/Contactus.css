@@ -3,19 +3,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f1f2f2; 
-    padding: 40px; 
-    font-family: Arial, sans-serif; 
+    background-color: #f1f2f2;
+    padding: 40px;
+    font-family: Arial, sans-serif;
 }
 
 .Contact-us {
     margin-top: 5px;
-   font-size: 3em; 
+    font-size: 3em;
     color: #003873;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-    
 }
 
 .Spam-questions {
@@ -36,15 +35,16 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
     margin-top: 20px; /* Top margin for spacing */
 }
-.Contactus-btn{
-    background-color: #00aeef; 
+
+.Contacts-btn {
+    background-color: #003873;
     color: white;
-    padding: 10px 30px; 
+    padding: 10px 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
     margin-top: 20px;
-    align-self: flex-start; 
+    align-self: flex-start;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1em;
@@ -55,27 +55,31 @@
     transition: color 0.4s ease;
     z-index: 1;
     border: none;
-  }
-  .Contactus-btn::before {
+}
+
+.Contacts-btn::before {
     content: '';
     position: absolute;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #344ea1;
+    background-color: #69ba2f;
+    color: white;
     transition: left 0.4s ease;
     z-index: -1;
-  }
-  
-  .Contactus-btn:hover::before {
+}
+
+.Contacts-btn:hover::before {
     left: 0;
-  }
-  
-  .Contactus-btn:hover {
+    
+}
+
+.Contacts-btn:hover {
     color: #f1f2f2;
-  }
-  
+    background-color: #69ba2f;
+}
+
 .ant-form-item-label > label {
     color: #003873; /* Label color */
 }
@@ -105,11 +109,14 @@
         text-align: center;
     }
 
-    .Spam-questions {
-        font-size: 1.2rem; /* Adjusted font size */
-    }
-
     .Contact-ted {
         padding: 20px; /* Reduced padding */
+        width: 100%;
+        max-width: none; /* Full width on small screens */
+    }
+
+    .Contactus-btn {
+        padding: 8px 20px; /* Adjusted button padding */
+        font-size: 0.9em; /* Adjusted button font size */
     }
 }

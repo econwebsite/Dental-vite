@@ -13,14 +13,14 @@ const Product = () => {
     </div>
     <div className='col-lg-8 col-sm-12 col-md-8 p-4 mb-0 productRightSide'>
     <div className="breadcrumb">Home {'>'} Products {'>'} Intraoral Cameras</div>
-    <h1 className='primaryTitle'>Intraoral Camera</h1>
+    <h1 className='primaryTitle'>Full HD Intraoral Camera</h1>
     <div className='productHighlights mb-4 ps-4'>
     <h2 className='secondaryName my-1'>Highlights</h2>
     <ul className='highlightList mt-2 ms-3'>
-        <li>Houses Full HD onsemi&reg; AR0233AT Image Sensor</li>
-        <li>Fixed Focus</li>
-        <li>High Dynamic Range (HDR)</li>
-        <li>On-board high performance ISP</li>
+        <li>5MP Resolution</li>
+        <li>5mm – 70mm Depth of Field</li>
+        <li>Working distance of 5mm</li>
+    
     </ul>
     </div>
     <div className='ProductPriceSection col-12 d-flex flex-wrap'>

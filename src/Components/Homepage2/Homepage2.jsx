@@ -1,5 +1,5 @@
 import React from 'react';
-import Carouselcomp from "./Carousel comp/Carouselcomp"
+import Homepage from "../Home Comp/1.Home page/Homepage"
 import Paragraph from "../Homepage2/Paragraph comp/Paragraph"
 import Cardcomp from "../Homepage2/Card comp/Cardpage"
 import Tabspage from "../Homepage2/Tabscomp/Tabspage"
@@ -10,7 +10,8 @@ import CertificationQuality from "../../Components/Home Comp/9.CertificationQual
 const Homepage2 = () => {
     return (
         <div style={{with:"100%"}}>
-        <Carouselcomp/>
+        {/* <Carouselcomp/> */}
+        <Homepage/>
         <Paragraph/>
         <Cardcomp/>
         <Tabspage/>

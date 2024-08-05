@@ -9,6 +9,7 @@ import Navbarpage from './Components/NavBar Comp/Navbarpage';
 import Homepage2 from './Components/Homepage2/Homepage2';
 import Product from './Components/Product/Product';
 import Footerpage from "./Components/Footer comp/Footerpage";
+import ContactUs from './Components/Homepage2/Contact Us comp/ContactUs';
 function App() {
   return (
     <>
@@ -18,11 +19,12 @@ function App() {
     <div className='fixed-container'>
     <Navbarpage/> 
       <Routes>
-        
+    
         <Route path="/" element={<TotalHome />} />
         <Route path="/blog" element={<TotalBlog />} />
         <Route path="/homepage2" element={<Homepage2/>} />
         <Route path="/product" element={<Product/>} />
+        <Route path="/contactus" element={<ContactUs/>} />
     
       </Routes>
       </div>

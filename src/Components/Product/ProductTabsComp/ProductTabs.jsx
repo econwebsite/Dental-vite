@@ -13,7 +13,7 @@ const ProductTabs = () => {
         <div className="products-container my-4">
             {/* <h1 className="products-heading">TAbs</h1> */}
             <div className="Products-Tabs">
-                <Tabs defaultActiveKey="1" className="custom-tabs" style={{alignItems:"center"}}>
+                <Tabs defaultActiveKey="1" className="custom-tabs" style={{alignItems:"center",width:"100%"}}>
                     <Tabs.TabPane tab="Overview" key="1">
                         <Overview />
                     </Tabs.TabPane>
