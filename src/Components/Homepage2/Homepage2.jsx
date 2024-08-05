@@ -4,9 +4,8 @@ import Paragraph from "../Homepage2/Paragraph comp/Paragraph"
 import Cardcomp from "../Homepage2/Card comp/Cardpage"
 import Tabspage from "../Homepage2/Tabscomp/Tabspage"
 import ContactUs from "../Homepage2/Contact Us comp/ContactUs"
-// import RectangleBox from "../Home Comp/3.Rectangle Page/RectangleBox"
 import Dentalvideopg from "../Home Comp/4.Dental video Page/Dentalvideopg"
-// import Testimonials from "../Home Comp/7.Testimonials comp/Testimonials"
+import CertificationQuality from "../../Components/Home Comp/9.CertificationQuality Page/CertificationQuality"
 
 const Homepage2 = () => {
     return (
@@ -18,8 +17,8 @@ const Homepage2 = () => {
         <div style={{marginTop:"20px"}}></div>
         {/* <RectangleBox/> */}
         <Dentalvideopg/>
-        {/* <Testimonials/> */}
-        {/* <div style={{marginTop:"90px"}}></div> */}
+        <CertificationQuality/>
+        <div style={{marginTop:"30px"}}></div>
         <ContactUs/>
         </div>
     );
