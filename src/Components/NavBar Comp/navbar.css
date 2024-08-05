@@ -154,3 +154,25 @@
   border-left: 2px solid #69ba2f; /* Color and thickness of the divider line */
   margin: 0 10px; /* Spacing around the divider */
 }
+/* Dropdown Menu Customization */
+.ant-dropdown-menu {
+  min-width: 200px !important;
+}
+
+.ant-dropdown-menu-item {
+  font-size: 1.2em !important; /* Increase font size */
+  padding: 10px 20px !important; /* Adjust padding */
+  background-color: #f1f2f2;
+  color: #344ea1 !important;
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: #69ba2f !important; /* Background color on hover */
+  color: white !important; /* Text color on hover */
+  text-decoration: none !important; /* Remove underline */
+}
+
+.ant-dropdown-menu-item a {
+  color: inherit !important; /* Ensure link color inherits from parent */
+  text-decoration: none !important; /* Remove underline */
+}

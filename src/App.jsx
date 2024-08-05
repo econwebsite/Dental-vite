@@ -10,6 +10,8 @@ import Homepage2 from './Components/Homepage2/Homepage2';
 import Product from './Components/Product/Product';
 import Footerpage from "./Components/Footer comp/Footerpage";
 import ContactUs from './Components/Homepage2/Contact Us comp/ContactUs';
+import Hubpageblog from "./Components/Hubpages/Bloghubpages/Hubpageblog"
+import Casehubpage from "./Components/Hubpages/Casestudyhubpage/Casehubpage"
 function App() {
   return (
     <>
@@ -25,6 +27,8 @@ function App() {
         <Route path="/homepage2" element={<Homepage2/>} />
         <Route path="/product" element={<Product/>} />
         <Route path="/contactus" element={<ContactUs/>} />
+        <Route path="/bloghub" element={<Hubpageblog/>} />
+        <Route path="/casehub" element={<Casehubpage/>} />
     
       </Routes>
       </div>

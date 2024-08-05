@@ -2,8 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css'; // Ensure this CSS file is linked
 import econlogo from '../assets/econlogo.png'; // Import your logo image
+import { Button, Dropdown, Space } from 'antd';
 
 const Navbarpage = () => {
+  const items = [
+    {
+      key: '1',
+      label: (
+        <Link to="/bloghub">
+          Blog
+        </Link>
+      ),
+    },
+    {
+      key: '2',
+      label: (
+        <Link to="/casehub">
+          Casestudy
+        </Link>
+      ),
+    },
+  ];
+
   return (
     <nav className="navbarpage-navbar">
       <div className="navbarpage-header">
@@ -31,13 +51,22 @@ const Navbarpage = () => {
         <div className="navbarpage-divider"></div>
         <Link to="/blog" className="navbarpage-navLink">Loupe Camera</Link>
         <div className="navbarpage-divider"></div>
-        <Link to="/about" className="navbarpage-navLink">Resources</Link>
+        <Space direction="vertical">
+          <Space wrap>
+            <Dropdown
+              menu={{ items }}
+              placement="bottomLeft"
+              arrow={{ pointAtCenter: true }}
+            >
+                <Link to="/about" className="navbarpage-navLink">Resources</Link>
+            </Dropdown>
+          </Space>
+        </Space>
         <div className="navbarpage-divider"></div>
         <Link to="/contactus" className="navbarpage-navLink">Contactus</Link>
         <div className="navbarpage-divider"></div>
         <Link to="/aboutus" className="navbarpage-navLink">About Us</Link>
       </div>
-      
     </nav>
   );
 };
