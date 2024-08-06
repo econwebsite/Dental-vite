@@ -217,21 +217,7 @@ html, body {
   color: #344ea1;
 }
 
-/* Responsive Styles */
-@media (max-width: 1024px) {
-  .homeblog-left-column,
-  .homeblog-right-column {
-    width: 100%; /* Stack columns vertically on medium screens */
-  }
 
-  .homeblog-component-container {
-    flex-direction: column; /* Stack columns vertically */
-  }
-
-  .homeblog-merged-box {
-    height: auto; /* Allow height to adjust on smaller screens */
-  }
-}
 
 @media (max-width: 768px) {
   .homeblog-full-image {

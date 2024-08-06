@@ -15,11 +15,14 @@
   font-style: normal;
 }
 
-.productSection .Total-cards {
+.productSection .Total-Casestudy {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   flex-wrap: wrap;
+  
 }
+
+
 
 .productSection .Technical-card {
   border-radius: 8px;

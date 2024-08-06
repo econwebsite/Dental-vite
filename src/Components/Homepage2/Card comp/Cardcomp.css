@@ -41,10 +41,11 @@
 
 .second-home-card-img {
   width: 100%;
-  height: 250px; /* Adjust image height as needed */
-  object-fit: cover; /* Ensures the image covers the area without distortion */
-  margin-bottom: 20px; /* Increased margin for better spacing */
-  margin-top: 10px; /* Adjust margin to position the image correctly */
+  min-height: 170px;
+  max-height: 170px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .second-home-card-title {
@@ -63,14 +64,14 @@
   margin-bottom: 20px;
 }
 
-.second-home-card-button {
+.second-home-button {
   background-color: #00aeef;
   color: #fff;
   border: none;
   font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
-  padding: 15px 20px;
+    padding: 10px 15px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 1em;
@@ -84,7 +85,7 @@
   
 }
 
-.second-home-card-button::before {
+.second-home-button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -96,11 +97,11 @@
   z-index: -1;
 }
 
-.second-home-card-button:hover::before {
+.second-home-button:hover::before {
   left: 0;
 }
 
-.second-home-card-button:hover {
+.second-home-button:hover {
   color: #f1f2f2;
 }
 
@@ -134,7 +135,7 @@
   .second-home-card-img {
     height: 200px; /* Adjust image height for smaller screens */
   }
-  .second-home-card-button {
+  .second-home-button {
     padding: 10px 10px;
 
   }
