@@ -1,0 +1,147 @@
+.hubpageblog {
+  display: flex;
+  background-color: #f1f2f2;
+  height: 800px; /* Fixed height for the container */
+  margin-top: 20px;
+}
+
+.hubblog-column {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hubblog-left {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Ensure it stretches to fit height */
+}
+
+.hubblog-border-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  box-sizing: border-box;
+  height: 100%; /* Ensure it takes full height of its container */
+  display: flex;
+  flex-direction: column; /* Ensure column layout for contents */
+  justify-content: space-between; /* Space between content and button */
+}
+
+.hubblog-border-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.hubblog-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.hubblog-card-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex: 1;
+}
+
+.hubblog-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 250px; /* Ensure cards have a minimum height */
+  position: relative; /* Position relative for absolute positioning of button */
+}
+
+.hubblog-card img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hubblog-card h6 {
+  margin-bottom: 10px;
+}
+
+.hubblog-card p {
+  margin-bottom: 10px;
+}
+
+.hubblog-explore-more {
+  background: none;
+  border: none;
+  color: #003873;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Added margin-top to align button consistently */
+}
+
+.hubblog-arrow {
+  margin-left: 8px;
+}
+
+.hubblog-full-card {
+  display: flex;
+  margin-top: 20px;
+  background-color: #fff;
+  height: 100%; /* Ensure it takes full height of its container */
+}
+
+.hubblog-full-card-left {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hubblog-full-card-right {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 80px; */
+  justify-content: space-evenly; 
+}
+
+.hubblog-full-card-left img {
+  width: 100%;
+  height: 300px;
+}
+
+.hubblog-full-card-right img {
+  /* border: 2px solid #003873; */
+  padding: 10px;
+  /* margin-bottom: 15px; */
+}
+
+.hubblog-full-card-right h6 {
+ 
+  /* padding: 10px; */
+  /* margin-bottom: 15px; */
+  text-align: justify;
+}
+
+.hubblog-full-card-right p {
+  margin-bottom: 0px; /* Adjusted margin-bottom */
+  text-align: justify;
+}
