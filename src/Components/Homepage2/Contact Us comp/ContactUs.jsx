@@ -4,6 +4,7 @@ import './Contactus.css'; // Import custom CSS for styling
 
 const { Option } = Select;
 
+
 const countries = [
   { code: '+1', name: 'United States' },
   { code: '+1', name: 'Canada' },
@@ -31,6 +32,7 @@ const countries = [
   { code: '+84', name: 'Vietnam' },
   { code: '+65', name: 'Singapore' },
 ];
+
 
 
 const usaStates = [
@@ -108,68 +110,61 @@ const ContactUs = () => {
     <div className='total-contact'>
       <div>
         <h1 className='Contact-us'>CONTACT US</h1>
-        <br />
         <span className='Spam-questions'>Do You Have Any Questions?</span>
       </div>
       <div className="Contact-ted">
         <Form form={form} name="contactForm" onFinish={onFinish} layout="vertical">
-          <Row gutter={16}>
+          <Row gutter={8}>
             <Col span={12}>
-              <Form.Item 
-                // label={<span style={{ color: "#003873" }}>Name</span>}
-                placeholder={<span style={{ color: "#003873" }}>Name</span>}
+              <Form.Item
                 name="name"
                 rules={[{ required: true, message: 'Please enter your name' }]}
               >
-                <Input style={{color: "#003873"}}/>
+                <Input placeholder="Name"  />
               </Form.Item>
             </Col>
             <Col span={12}>
               <Form.Item
-                label={<span style={{ color: "#003873" }}>Company Name</span>}
                 name="companyName"
                 rules={[{ required: true, message: 'Please enter your company name' }]}
               >
-                <Input />
+                <Input placeholder="Company Name" />
               </Form.Item>
             </Col>
           </Row>
 
-          <Row gutter={16}>
+          <Row gutter={8}>
             <Col span={12}>
               <Form.Item
-                label={<span style={{ color: "#003873" }}>Email</span>}
                 name="email"
                 rules={[
                   { required: true, message: 'Please enter your email' },
                   { type: 'email', message: 'Please enter a valid email' },
                 ]}
               >
-                <Input />
+                <Input placeholder="Email" />
               </Form.Item>
             </Col>
             <Col span={12}>
               <Form.Item
-                label={<span style={{ color: "#003873" }}>Contact Number</span>}
                 name="contactNumber"
                 rules={[{ required: true, message: 'Please enter your phone number' }]}
               >
-                <Input addonBefore={selectedCountry ? countries.find(c => c.name === selectedCountry).code : ''} style={{ backgroundColor: "white" }} />
+                <Input 
+                  placeholder="Contact Number"
+                  addonBefore={selectedCountry ? countries.find(c => c.name === selectedCountry).code : ''} 
+                />
               </Form.Item>
             </Col>
           </Row>
 
-          <Row gutter={16}>
+          <Row gutter={8}>
             <Col span={12}>
               <Form.Item
-                label={<span style={{ color: "#003873" }}>Country</span>}
                 name="country"
                 rules={[{ required: true, message: 'Please select your country' }]}
               >
-                <Select 
-                  placeholder="Select country"
-                  onChange={handleCountryChange}
-                >
+                <Select placeholder="Select country" onChange={handleCountryChange}>
                   {countries.map((country) => (
                     <Option key={country.code} value={country.name}>
                       {country.name}
@@ -181,7 +176,6 @@ const ContactUs = () => {
             <Col span={12}>
               {showStates && (
                 <Form.Item
-                  label={<span style={{ color: "#003873" }}>State (if applicable)</span>}
                   name="state"
                   rules={[{ required: showStates, message: 'Please select your state' }]}
                 >
@@ -197,14 +191,13 @@ const ContactUs = () => {
             </Col>
           </Row>
 
-          <Row gutter={16}>
+          <Row gutter={8}>
             <Col span={24}>
               <Form.Item
-                label={<span style={{ color: "#003873" }}>Describe Your Queries</span>}
                 name="queries"
                 rules={[{ required: true, message: 'Please describe your queries' }]}
               >
-                <Input.TextArea rows={7} />
+                <Input.TextArea placeholder="Describe Your Queries" rows={5} />
               </Form.Item>
             </Col>
           </Row>
