@@ -115,12 +115,13 @@ const ContactUs = () => {
         <Form form={form} name="contactForm" onFinish={onFinish} layout="vertical">
           <Row gutter={16}>
             <Col span={12}>
-              <Form.Item
-                label={<span style={{ color: "#003873" }}>Name</span>}
+              <Form.Item 
+                // label={<span style={{ color: "#003873" }}>Name</span>}
+                placeholder={<span style={{ color: "#003873" }}>Name</span>}
                 name="name"
                 rules={[{ required: true, message: 'Please enter your name' }]}
               >
-                <Input />
+                <Input style={{color: "#003873"}}/>
               </Form.Item>
             </Col>
             <Col span={12}>

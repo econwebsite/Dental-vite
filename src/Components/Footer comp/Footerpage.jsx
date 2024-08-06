@@ -12,11 +12,11 @@ const Footerpage = () => {
             <img src={econlogo} alt="Company Logo" />
           </div>
           <div className="footer-links">
-            <a href="/product">Products</a>
+            <a href="/product">IntraOral Camera</a>
             <a href="/downloads">Downloads</a>
             <a href="/casestudies">Casestudies</a>
-            <a href="/blog">Blog</a>
-            <a href="/about">About</a>
+            <a href="/blog">Blogs</a>
+            <a href="/about">About Us</a>
           </div>
         </div>
         <div className="footer-divider" />
@@ -33,7 +33,7 @@ const Footerpage = () => {
           <h4 className="footer-subscribe-title">Subscribe for latest updates</h4>
           <div className="footer-subscribe-input">
             <input type="email" placeholder="Email id" />
-            <button>Proceed</button>
+            <button style={{backgroundColor:"#003873",color:"white"}}>Proceed</button>
           </div>
           <div className="footer-social-icons">
             <button className="footer-icon-button"><RiTwitterXLine /></button>

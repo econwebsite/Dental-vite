@@ -2,7 +2,7 @@ import React from 'react';
 import { Tabs } from 'antd';
 import Secblog from '../2.homeBlog page/Secblog';
 import Secasestudy from '../pagecasestudy/Secasestudy';
-import Releatedvideo from "../Releated video comp/Releatedvideo"
+// import Releatedvideo from "../Releated video comp/Releatedvideo"
 
 import './Tabspage.css';
 
@@ -18,9 +18,7 @@ const Tabspage = () => {
                     <Tabs.TabPane tab="Case Studies" key="2">
                         <Secasestudy />
                     </Tabs.TabPane>
-                    <Tabs.TabPane tab="Releated videos" key="3">
-                        <Releatedvideo />
-                    </Tabs.TabPane>
+                    
                 </Tabs>
             </div>
         </div>

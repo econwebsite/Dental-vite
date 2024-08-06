@@ -13,10 +13,10 @@ const BlogPage = () => {
     <div className="Blogpage-cointainer">
       <div className="content-Blog">
         <div className="Blog-left-column">
-        <div className="breadcrumb">Home {'>'} Camera Applications {'>'} Dental Imaging</div>
+        <div className="breadcrumb">Home {'>'} Dental Imaging</div>
           <h1>How cameras Maximize the Power of Modern Dental Application</h1>
           <p>By Balaji S, July 16, 2024</p>
-          <div className="custom-icon-box">
+          {/* <div className="custom-icon-box">
             <div className="custombutton-row">
             <button className="blog-icon-share">Share</button>
               <button className="blog-icon-button"><RiTwitterXLine /></button>
@@ -28,7 +28,7 @@ const BlogPage = () => {
               <button className="blog-icon-button"><FaTelegramPlane /></button>
               <button className="blog-icon-button"><RiPinterestFill /></button>
             </div>
-          </div>
+          </div> */}
           <div className="blogborder-box">
             <p>Modern dentistry has been transformed by advanced cameras, aiding in diagnosis, treatment, and patient communication. High-quality intraoral cameras capture detailed images of teeth and gums, and cameras in dental loupes and surgical lights enhance procedures. These cameras provide magnified views, enabling efficient procedures and improving patient engagement. This blog explores various types of dental cameras, their features, and their impact on dental care.</p>
             <img src={Productmedicalimg} alt="Dental Camera" className="blog-medicalimage" />
@@ -46,14 +46,14 @@ const BlogPage = () => {
             <br></br>
             <p>In this blog, we will look at the various types of dental cameras and get insights into their key features.</p>
           </div>
-          <div className="blog-button-group">
+          {/* <div className="blog-button-group">
             <button className="blog-explore-button">Explore all our dentistry cameras</button>
             <button className="blog-selector-button">Camera Selector Page</button>
-          </div>
+          </div> */}
         </div>
         <div className="Blog-right-column">
           <div className="Blogrelated-articles">
-            <p>Related Articles</p>
+            <p>Related Blogs</p>
             <hr/>
             <div className="CardBlogs">
               <img src={productcard1} alt="Camera Model 1" className="Cardrelated-image" />

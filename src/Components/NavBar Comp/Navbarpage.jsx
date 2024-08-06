@@ -10,7 +10,7 @@ const Navbarpage = () => {
       key: '1',
       label: (
         <Link to="/bloghub">
-          Blog
+          Blogs
         </Link>
       ),
     },
@@ -18,7 +18,7 @@ const Navbarpage = () => {
       key: '2',
       label: (
         <Link to="/casehub">
-          Casestudy
+          Casestudies
         </Link>
       ),
     },
@@ -35,21 +35,21 @@ const Navbarpage = () => {
           <div className="navbarpage-contact">
             <i className="ri-phone-fill navbarpage-phoneIcon"></i>
             <div className="navbarpage-contactDetails">
-              <p className="navbarpage-tellUs" style={{ color: "#00aeef" }}>Call us</p>
+              <p className="navbarpage-tellUs" style={{ color: "#69ba2f" }}>Call us</p>
               <p className="navbarpage-phoneNumber">+1 408 766 7503</p>
             </div>
-            <button className="navbarpage-getQuoteButton">Get a Quote</button>
+            {/* <button className="navbarpage-getQuoteButton">Get a Quote</button> */}
           </div>
         </div>
       </div>
       <div className="navbarpage-navItems">
         <Link to="/homepage2" className="navbarpage-navLink">Home</Link>
         <div className="navbarpage-divider"></div>
-        <Link to="/product" className="navbarpage-navLink">Intraoral camera</Link>
+        <Link to="/product" className="navbarpage-navLink">IntraOral camera</Link>
         <div className="navbarpage-divider"></div>
-        <Link to="/product" className="navbarpage-navLink">Extraoral camera</Link>
+        <Link className="navbarpage-navLink">ExtraOral camera</Link>
         <div className="navbarpage-divider"></div>
-        <Link to="/blog" className="navbarpage-navLink">Loupe Camera</Link>
+        <Link className="navbarpage-navLink">Loupe Camera</Link>
         <div className="navbarpage-divider"></div>
         <Space direction="vertical">
           <Space wrap>

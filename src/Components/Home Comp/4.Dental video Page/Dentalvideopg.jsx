@@ -6,7 +6,7 @@ function Dentalvideopg() {
     <div className="Dental-Video-total">
       <div className="dental-video-left">
         <div className="dental-videos-content">
-          <h1>Dental Camera <br /> Videos</h1>
+          <h1>IntraOral Camera <br /> Videos</h1>
           <p>We deployed a high-quality camera with iHDR for<br />dentistry to help them motivate and educate<br /> dental patients and students.</p>
           <button className="know-more-button">Know More</button>
         </div>

@@ -1,13 +1,13 @@
 import React from 'react';
-import './Technical.css';
+import './CaseStudies.css';
 import Technical1 from "../../assets/techimg1.jpg";
 import Technical2 from "../../assets/techimg2.jpg";
 import Technical3 from "../../assets/Techimg3.jpg";
 
-const Technical = () => {
+const CaseStudies = () => {
   return (
     <div className="Technical-Total mt-4">
-      <h1 className="Technical-title">Technical Blogs</h1>
+      <h1 className="Technical-title">Case Studies</h1>
       <div className="Total-cards">
         <div className="Technical-card">
           <img src={Technical1} alt="AI-enabled point of care device" className="Tech-card-image" />
@@ -39,4 +39,4 @@ const Technical = () => {
   );
 };
 
-export default Technical;
+export default CaseStudies;

@@ -12,7 +12,7 @@ const Homepage = () => {
                     <h4 className="oralcamera-text-sticky">For Diagnosis & Treatment Procedures</h4>
                     <div className="oralcamera-buttons-inform">
                         <button className="oralcamera-contactus-Button">Contact us</button>
-                        <button className="oralcamera-getQuote-Button">Get a Quote</button>
+                        <button className="oralcamera-getQuote-Button">Document download</button>
                     </div>
                 </div>
             </div>

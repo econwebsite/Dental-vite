@@ -221,10 +221,10 @@ width: 100%;
     padding: 5px;
   }
   .CardBlogs h2{
-color: #003873;
-font-size: 1.5em;
-
-
+color: #344ea1;
+font-size: 1.2em;
+margin-top: 1em;
+font-weight: bold;
   }
   .CardBlogs p{
 color: #344ea1;
@@ -246,7 +246,7 @@ margin-top: 15px;
   text-align: center;
   outline: none;
   z-index: 1;
-  background-color: #003873;
+  background-color: #00aeef;
   color: white;
   font-family: "Poppins", sans-serif;
     font-weight: 100;

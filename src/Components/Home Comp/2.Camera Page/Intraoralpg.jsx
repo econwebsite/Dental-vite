@@ -13,7 +13,7 @@ function Intraoralpg() {
             <img src={Intraoral} alt="Example" className="typecamera-Oral-image" data-aos="fade-right" data-aos-duration="1000"/>
           </div>
           <div className="typecamera-Oral-right">
-            <h1 className="typecamera-oral-title1">Intraoral Camera</h1>
+            <h1 className="typecamera-oral-title1">IntraOral Camera</h1>
             <p className="typecamera-Oral-paragraph">Digital cameras allow instant images, easy storage, and integration with a variety of dental practice management software applications to document clinical situations, enhance insurance submissions, etc. High resolution and accurate color reproduction are some of the critical requirements across various diagnosis and treatment procedures.</p>
             <div className="typecamera-Oral-Butons1">
               <button className="typecamera-Down-tech-button">Download Tech Documents</button>
@@ -27,7 +27,7 @@ function Intraoralpg() {
         <div className="typecamera-underline"></div>
         <div className="typecamera-Total-cam-blog">
           <div className="typecamera-Oral-right">
-            <h1 className="typecamera-oral-title2">Extraoral Camera</h1>
+            <h1 className="typecamera-oral-title2">ExtraOral Camera</h1>
             <p className="typecamera-Oral-paragraph">Digital cameras allow instant images, easy storage, and integration with a variety of dental practice management software applications to document clinical situations, enhance insurance submissions, etc. High resolution and accurate color reproduction are some of the critical requirements across various diagnosis and treatment procedures.</p>
             <div className="typecamera-Oral-Butons2">
               <button className="typecamera-Down-tech-button">Download Tech Documents</button>
