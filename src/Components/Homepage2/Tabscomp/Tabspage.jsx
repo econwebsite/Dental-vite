@@ -9,9 +9,10 @@ import './Tabspage.css';
 const Tabspage = () => {
     return (
         <div className="resource-container">
+      <div className="mainContainer">
             <h1 className="resource-heading">Resources</h1>
             <div className="tabs-container">
-                <Tabs defaultActiveKey="1" className="custom-tabs" style={{alignItems:"center"}}>
+                <Tabs defaultActiveKey="1" className="custom-tabs homePage" style={{alignItems:"center"}}>
                     <Tabs.TabPane tab="Blogs" key="1">
                         <Secblog />
                     </Tabs.TabPane>
@@ -22,6 +23,7 @@ const Tabspage = () => {
                 </Tabs>
             </div>
         </div>
+      </div>
     );
 };
 

@@ -3,7 +3,9 @@ import '../Blog comp/BlogArtical.css'; // Import the CSS file
 import Balajiimg from "../assets/Balajiimg.jpg"
 const BlogArtical = () => {
   return (
+   
     <div className="blogArtical-Total">
+      
       <div className="Artical-paragraphs">
         <p>If you want to get started integrating our cameras into your dental products,</p>
         <p>please write to <span className='mail-color'>camerasolutions@e-consystems.com</span></p>
@@ -29,7 +31,7 @@ const BlogArtical = () => {
           <button className="Articalknow-button">Know more</button>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 

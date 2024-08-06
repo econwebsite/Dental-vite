@@ -108,6 +108,8 @@ const ContactUs = () => {
 
   return (
     <div className='total-contact'>
+      
+      <div className="mainContainer">
       <div>
         <h1 className='Contact-us'>CONTACT US</h1>
         <span className='Spam-questions'>Do You Have Any Questions?</span>
@@ -213,6 +215,7 @@ const ContactUs = () => {
           </Row>
         </Form>
       </div>
+    </div>
     </div>
   );
 };

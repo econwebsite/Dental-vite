@@ -1,15 +1,16 @@
 import React from 'react';
 import './Footerpage.css'; // Ensure this CSS file contains the styles
-import econlogo from "../assets/econlogo.png";
+import dentallogo from "../assets/DENTAL LOGO.png";
 import { RiPhoneFill, RiMailFill, RiTwitterXLine, RiLinkedinFill, RiYoutubeFill, RiFacebookFill, RiInstagramFill } from 'react-icons/ri'; // Import necessary icons
 
 const Footerpage = () => {
   return (
     <footer className="footer-container">
+      <div className="mainContainer">
       <div className="footer-inner">
         <div className="footer-column footer-column-logo">
           <div className="footer-logo">
-            <img src={econlogo} alt="Company Logo" />
+            <img src={dentallogo} alt="Company Logo" />
           </div>
           <div className="footer-links">
             <a href="/product">IntraOral Camera</a>
@@ -46,6 +47,7 @@ const Footerpage = () => {
             <p><span style={{color:"#00aeef"}}>e-con System</span> 2024, all rights reserved.</p>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );

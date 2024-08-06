@@ -3,6 +3,8 @@ import './Dentalvideo.css';
 
 function Dentalvideopg() {
   return (
+    
+    <div className="mainContainer">
     <div className="Dental-Video-total">
       <div className="dental-video-left">
         <div className="dental-videos-content">
@@ -23,6 +25,7 @@ function Dentalvideopg() {
           allowFullScreen
         ></iframe>
       </div>
+    </div>
     </div>
   );
 }

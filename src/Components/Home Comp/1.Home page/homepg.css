@@ -7,6 +7,8 @@
     flex-wrap: nowrap;
     position: relative;
     box-sizing: border-box;
+    max-width: 1600px;
+    margin: 0 auto;
     margin-top: -20px;
 }
 

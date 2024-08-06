@@ -11,6 +11,7 @@ const BlogPage = () => {
   return (
     <div>
     <div className="Blogpage-cointainer">
+    <div className='mainContainer'>
       <div className="content-Blog">
         <div className="Blog-left-column">
         <div className="breadcrumb">Home {'>'} Dental Imaging</div>
@@ -76,6 +77,7 @@ const BlogPage = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
   );

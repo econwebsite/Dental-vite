@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css'; // Ensure this CSS file is linked
-import econlogo from '../assets/econlogo.png'; // Import your logo image
-import { Button, Dropdown, Space } from 'antd';
+import dentallogo from '../assets/DENTAL LOGO.png'; // Import your logo image
+
+import {Dropdown, Space } from 'antd';
 
 const Navbarpage = () => {
   const items = [
@@ -28,14 +29,14 @@ const Navbarpage = () => {
     <nav className="navbarpage-navbar">
       <div className="navbarpage-header">
         <div className="navbarpage-logoContainer">
-          <img src={econlogo} alt="Econ Logo" className="navbarpage-logo" />
+          <img src={dentallogo} alt="Econ Logo" className="navbarpage-logo" />
         </div>
         <div className="navbarpage-rightColumn">
           <input type="text" placeholder="Search.." className="navbarpage-searchInput" />
           <div className="navbarpage-contact">
             <i className="ri-phone-fill navbarpage-phoneIcon"></i>
             <div className="navbarpage-contactDetails">
-              <p className="navbarpage-tellUs" style={{ color: "#69ba2f" }}>Call us</p>
+              <p className="navbarpage-tellUs">Call us</p>
               <p className="navbarpage-phoneNumber">+1 408 766 7503</p>
             </div>
             {/* <button className="navbarpage-getQuoteButton">Get a Quote</button> */}
@@ -43,13 +44,13 @@ const Navbarpage = () => {
         </div>
       </div>
       <div className="navbarpage-navItems">
-        <Link to="/homepage2" className="navbarpage-navLink">Home</Link>
+        <Link to="/home" className="navbarpage-navLink">Home</Link>
         <div className="navbarpage-divider"></div>
         <Link to="/product" className="navbarpage-navLink">IntraOral camera</Link>
         <div className="navbarpage-divider"></div>
         <Link className="navbarpage-navLink">ExtraOral camera</Link>
         <div className="navbarpage-divider"></div>
-        <Link className="navbarpage-navLink">Loupe Camera</Link>
+        <Link to="/blog" className="navbarpage-navLink">Loupe Camera</Link>
         <div className="navbarpage-divider"></div>
         <Space direction="vertical">
           <Space wrap>

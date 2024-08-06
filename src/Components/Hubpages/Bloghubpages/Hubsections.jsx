@@ -1,13 +1,13 @@
 import React from 'react';
-import './CaseStudies.css';
+import './Hubsection.css';
 import Technical1 from "../../assets/techimg1.jpg";
 import Technical2 from "../../assets/techimg2.jpg";
 import Technical3 from "../../assets/Techimg3.jpg";
 
-const CaseStudies = () => {
+const Hubsections = () => {
   return (
     <div className="Technical-Total mt-2">
-      <h1 className="Technical-title">Case Studies</h1>
+      {/* <h1 className="Technical-title">Case Studies</h1> */}
       <div className="Total-Casestudy">
         <div className="Technical-card">
           <img src={Technical1} alt="AI-enabled point of care device" className="Tech-card-image" />
@@ -39,4 +39,4 @@ const CaseStudies = () => {
   );
 };
 
-export default CaseStudies;
+export default Hubsections;

@@ -38,7 +38,7 @@ const Whatsapart = () => {
           </div>
           <div className="what-row">
             <img src={Whatsapart6} alt="Image 6" className="what-image" />
-            <p className="What-paragraph">A  team  of  of 300 extreamely<br />skilled core engineers</p>
+            <p className="What-paragraph">A  team  of  of 300 extremely<br />skilled core engineers</p>
           </div>
         </div>
       </div>

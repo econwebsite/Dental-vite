@@ -2,14 +2,21 @@
 
 .products-container {
     width: 100%;
-    min-height: 400px !important; /* Ensures container takes at least full viewport height */
+    min-height: 100vh; /* Ensures container takes at least full viewport height */
     background-color:white;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
 }
 
-
+.products-heading {
+    font-size: 2.5em; /* Adjusted heading font size */
+    color: #003873;
+    margin-bottom: 20px;  
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
 
 /* Container for tabs */
 .Products-Tabs {
@@ -20,7 +27,7 @@
 }
 
 /* Tabs styling */
-.productcustom-tabs .ant-tabs-tab {
+.custom-tabs .ant-tabs-tab {
     font-size: 1.5em; /* Adjusted font size for tabs */
     color: #344ea1;
     padding: 20px 10px; 
@@ -28,7 +35,7 @@
 }
 
 /* Active tab styling */
-.productcustom-tabs .ant-tabs-tab-active {
+.custom-tabs .ant-tabs-tab-active {
     font-size: 1.5em; /* Ensures active tab has the same font size */
     color: #003873; /* Color change for active tab for better visibility */
 }
@@ -49,9 +56,7 @@
     width: 100%;
     padding: 10px; /* Adjust padding to decrease space */
 }
-.ant-tabs-content-holder{
-    width: 100%;
-}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .custom-tabs .ant-tabs-tab {

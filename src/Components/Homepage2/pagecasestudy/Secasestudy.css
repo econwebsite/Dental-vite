@@ -95,7 +95,7 @@
     border: 1px solid #f1f2f2;
     background-color: #f1f2f2;
     width: 100%;
-    min-height: 100vh; /* Ensure container height allows for full content height */
+    min-height: auto; /* Ensure container height allows for full content height */
     overflow: auto; /* Allow vertical scrolling if needed */
   }
   
@@ -132,7 +132,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 1140px;
+    height: auto;
   }
   
   /* Style for the full-width image in the merged box */
@@ -175,7 +175,7 @@
     width: 35%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 28px;
     align-items: center;
     overflow: hidden; /* Prevent overflow */
   }
@@ -190,7 +190,7 @@
     box-sizing: border-box;
     padding: 20px;
     width: 100%;
-    height: 367px; 
+   height: auto; 
   }
   
   .seccasestudy-box-image {
@@ -220,22 +220,36 @@
     color: #344ea1;
   }
   
-  /* Responsive Styles */
-  @media (max-width: 1024px) {
-    .seccasestudy-left-column,
-    .seccasestudy-right-column {
-      width: 100%; /* Stack columns vertically on medium screens */
+
+  @media (min-width: 1400px) {
+ 
+    .seccasestudy-box-content {
+      justify-content: flex-start;
     }
+    .seccasestudy-merged-box{
   
-    .seccasestudy-component-container {
-      flex-direction: column; /* Stack columns vertically */
+      height: 1085px;
     }
-  
-    .seccasestudy-merged-box {
-      height: auto; /* Allow height to adjust on smaller screens */
+    .seccasestudy-box {
+      height: 345px; 
     }
   }
   
+  
+  @media (min-width: 1000px) {
+   
+    .seccasestudy-box-content{
+      justify-content: flex-start;
+    }
+    .seccasestudy-merged-box{
+      height: 1120px;
+    }
+    .seccasestudy-box {
+      height: 355px; 
+    }
+  }
+  
+
   @media (max-width: 768px) {
     .seccasestudy-full-image {
       max-height: 400px; /* Adjust max-height for smaller screens */

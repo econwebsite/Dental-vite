@@ -4,6 +4,7 @@
   background-color: #f1f2f2; /* Background color of the navbar */
   display: flex;
   flex-direction: column; /* Stack elements vertically */
+  align-items: center;
   padding: 0;
   margin: 0;
   position: sticky;
@@ -22,6 +23,7 @@
   justify-content: space-between; /* Space between logo and right column */
   width: 100%;
   padding: 10px 20px;
+  max-width: 1600px;
 }
 
 /* Logo Container Styles */
@@ -33,7 +35,7 @@
 
 /* Logo Styles */
 .navbarpage-logo {
-  height: 50px; /* Height of the logo */
+  height: 60px; 
 }
 
 /* Right Column Styles */
@@ -77,9 +79,9 @@
 }
 
 .navbarpage-tellUs {
-  font-size: 14px; /* Font size */
+  font-size: 1em; /* Font size */
   margin: 0; /* Removed margin for better alignment */
-  color: #003873; /* Dark color for contrast */
+  color: #69ba2f; /* Dark color for contrast */
 }
 
 .navbarpage-phoneNumber {

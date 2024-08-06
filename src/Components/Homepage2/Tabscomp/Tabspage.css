@@ -7,7 +7,7 @@ html, body {
 
 .resource-container {
     width: 100%;
-    min-height: 100vh; /* Ensures container takes at least full viewport height */
+    height:auto; 
     background-color: #f1f2f2;
     padding: 20px;
     box-sizing: border-box;
@@ -32,11 +32,11 @@ html, body {
 }
 
 /* Tabs styling */
-.custom-tabs .ant-tabs-tab {
+.custom-tabs.homePage .ant-tabs-tab {
     font-size: 1.5em; /* Adjusted font size for tabs */
     color: #344ea1;
-    padding: 20px 10px; 
-    margin: 0 !important; /* Remove margin to reduce space between tabs */
+    padding: 20px 10px ; 
+    margin: 0 !important;
 }
 
 /* Active tab styling */
@@ -59,20 +59,20 @@ html, body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 10px; /* Adjust padding to decrease space */
+    padding: 10px; 
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .custom-tabs .ant-tabs-tab {
         font-size: 1em; /* Smaller font size for tabs on mobile */
-        padding: 8px 5px; /* Reduced padding on mobile */
+        padding: 8px 2px; /* Reduced padding on mobile */
     }
 
     .resource-heading {
         font-size: 2em; /* Smaller font size for heading on mobile */
     }
-
+    
     .ant-tabs-tabpane {
         padding: 5px; /* Further reduced padding on mobile */
     }

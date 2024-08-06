@@ -6,7 +6,7 @@ import Technical3 from "../../assets/Techimg3.jpg";
 
 const Technical = () => {
   return (
-    <div className="Technical-Total mt-4">
+    <div className="Technical-Total mt-2">
       <h1 className="Technical-title">Technical Blogs</h1>
       <div className="Total-cards">
         <div className="Technical-card">

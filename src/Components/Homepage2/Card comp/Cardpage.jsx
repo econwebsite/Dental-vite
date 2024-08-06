@@ -23,6 +23,8 @@ const cards = [
 ];
 const Cardpage = () => {
   return (
+    
+    <div className="mainContainer">
     <div className="second-home-card-container">
       {cards.map((card, index) => (
         <div className="second-home-card" key={index}>
@@ -34,6 +36,7 @@ const Cardpage = () => {
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 };

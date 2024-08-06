@@ -1,0 +1,13 @@
+.Document-tot{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
+.Document-tot h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #344ea1;
+    font-size: 1.3em;
+}

@@ -1,11 +1,16 @@
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
     .fixed-container {
       margin: 0 auto;
       max-width: 1600px;
       width: 100%; 
     }
-  }
+  } */
   .fixed-container {
     width: 100%;
+  }
+  .mainContainer{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
   }
 

@@ -15,6 +15,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
+    text-align: center;
 }
 
 .Spam-questions {
@@ -22,6 +23,8 @@
     color: #344ea1;
     margin-bottom: 20px; /* Reduced bottom margin */
     text-align: center; /* Center aligned */
+    display: block;
+    width: 100%;
 }
 
 .Contact-ted {
@@ -31,6 +34,7 @@
     padding: 20px; /* Reduced padding */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adjusted box shadow */
+    margin: 0 auto;
     margin-top: 30px; /* Reduced top margin */
 }
 

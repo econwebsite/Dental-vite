@@ -4,7 +4,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import TotalBlog from './Components/Blog comp/TotalBlog';
-import TotalHome from './Components/Home Comp/TotalHome';
+// import TotalHome from './Components/Home Comp/TotalHome';
 import Navbarpage from './Components/NavBar Comp/Navbarpage';
 import Homepage2 from './Components/Homepage2/Homepage2';
 import Product from './Components/Product/Product';
@@ -22,9 +22,9 @@ function App() {
     <Navbarpage/> 
       <Routes>
     
-        <Route path="/" element={<TotalHome />} />
+        <Route path="/" element={<Homepage2 />} />
         <Route path="/blog" element={<TotalBlog />} />
-        <Route path="/homepage2" element={<Homepage2/>} />
+        <Route path="/home" element={<Homepage2/>} />
         <Route path="/product" element={<Product/>} />
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/bloghub" element={<Hubpageblog/>} />
