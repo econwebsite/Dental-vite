@@ -7,7 +7,7 @@ const BlogArtical = () => {
     <div className="blogArtical-Total">
       
       <div className="Artical-paragraphs">
-        <p>If you want to get started integrating our cameras into your dental products,</p>
+        <p>If you need assistance with lens selection or integrating camera solutions into any of your medical or life sciences devices</p>
         <p>please write to <span className='mail-color'>camerasolutions@e-consystems.com</span></p>
       </div>
       <div className="Artical-person">

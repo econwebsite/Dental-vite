@@ -133,11 +133,20 @@ margin-top: 50px;
 .hubblog-explore-more {
   background: none;
   border: none;
-  color: #003873;
+  background-color: #003873;
+  color: white;
   cursor: pointer;
-  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 1em;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  outline: none;
+  transition: color 0.4s ease, border-color 0.4s ease;
+  z-index: 1;
   margin-top: 10px; /* Added margin-top to align button consistently */
 }
 
