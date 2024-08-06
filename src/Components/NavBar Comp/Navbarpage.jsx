@@ -59,14 +59,14 @@ const Navbarpage = () => {
               placement="bottomLeft"
               arrow={{ pointAtCenter: true }}
             >
-                <Link to="/about" className="navbarpage-navLink">Resources</Link>
+                <Link className="navbarpage-navLink">Resources</Link>
             </Dropdown>
           </Space>
         </Space>
         <div className="navbarpage-divider"></div>
         <Link to="/contactus" className="navbarpage-navLink">Contactus</Link>
         <div className="navbarpage-divider"></div>
-        <Link to="/aboutus" className="navbarpage-navLink">About Us</Link>
+        <Link to='/aboutus'  className="navbarpage-navLink">About Us</Link>
       </div>
     </nav>
   );

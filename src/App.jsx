@@ -12,6 +12,7 @@ import Footerpage from "./Components/Footer comp/Footerpage";
 import ContactUs from './Components/Homepage2/Contact Us comp/ContactUs';
 import Totalhubblog from "./Components/Hubpages/Bloghubpages/Totalhubblog"
 import Casehubpage from "./Components/Hubpages/Casestudyhubpage/Casehubpage"
+import AboutUs from './Components/AboutUs/AboutUs';
 function App() {
   return (
     <>
@@ -28,7 +29,9 @@ function App() {
         <Route path="/product" element={<Product/>} />
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/bloghub" element={<Totalhubblog/> } />
+        <Route path="/casehub" element={<Totalhubblog/> } />
         <Route path="/casehub" element={<Casehubpage/>} />
+        <Route path="/aboutus" element={<AboutUs/>} />
     
       </Routes>
       </div>

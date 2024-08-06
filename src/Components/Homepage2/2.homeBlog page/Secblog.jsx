@@ -27,24 +27,24 @@ const Secblog = () => {
           <div className="homeblog-box">
             <img src={rightimg1} alt="Box 1" className="homeblog-box-image" />
             <div className="homeblog-box-content">
-              <h6>Rapid and Scalable Using Raspberry Pi 4 Cameras</h6>
-              <p>Embedded vision systems have been a tested and proven solution in mature technologies.</p>
+              <h6>Capturing the Dentists' POV with Dental Loupe Cameras</h6>
+              <p>This blog explores features that enable loupe cameras for precise diagnoses. Find out why size ...</p>
               <button className="homeblog-btn">Know more</button>
             </div>
           </div>
           <div className="homeblog-box">
             <img src={rightimg2} alt="Box 2" className="homeblog-box-image" />
             <div className="homeblog-box-content">
-              <h6>Apple Push Notification Service (APNS)</h6>
-              <p>Vision-based gesture recognition technology and its applications.</p>
+              <h6>A Guide to Choosing the Right Dental Intraoral Camera</h6>
+              <p>Read to learn about the key features that make a dental intraoral camera ...</p>
               <button className="homeblog-btn">Know more</button>
             </div>
           </div>
           <div className="homeblog-box">
             <img src={rightimg2} alt="Box 3" className="homeblog-box-image" />
             <div className="homeblog-box-content">
-              <h6>Apple Push Notification Service (APNS)</h6>
-              <p>Vision-based gesture recognition technology and its applications.</p>
+              <h6>How to Choose the Right Camera for Extraoral Devices?</h6>
+              <p>Read on to learn more about key features like 4K resolution, autofocus capabilities...</p>
               <button className="homeblog-btn">Know more</button>
             </div>
           </div>

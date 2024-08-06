@@ -15,9 +15,7 @@ const Hubpageblog = () => {
           <img src={dentaimg} alt="Image Description" />
           <h2>Colour Global Shutter Camera Solution for Gesture Recognition and Industrial Drone Application</h2>
           <p>Vision-based gesture recognition - Technology and application of many advanced technologies the embedded vision world is accustomed to. Gesture recognition is a recent addition which has been explored and tested more by the industrial segment with vision and sensor-based technology.</p>
-          <button className="hubblog-explore-more">
-            Explore More
-          </button>
+          <button className="Hubread-more">Read More</button>
         </div>
       </div>
       <div className="hubblog-column hubblog-right">
@@ -26,16 +24,13 @@ const Hubpageblog = () => {
             <img src={dented1} alt="Card Image 1" />
             <h6>Rapid and Scalable Using Raspberry Pi 4 Cameras</h6>
             <p>Embedded vision systems have been a tested and proven solution in mature technologies.</p>
-            <button className="hubblog-explore-more">
-              Explore More 
-            </button>
+            <button className="Hubread-more">Read More</button>
           </div>
           <div className="hubblog-card">
             <img src={tee2} alt="Card Image 2" />
             <h6>Rapid and Scalable Using Raspberry Pi 4 Cameras</h6>
             <p>Embedded vision systems have been a tested and proven solution in mature technologies.</p>
-            <button className="hubblog-explore-more">
-              Explore More </button>
+            <button className="Hubread-more">Read More</button>
           </div>
         </div>
         <div className="hubblog-card-row">
@@ -43,17 +38,13 @@ const Hubpageblog = () => {
             <img src={dented1} alt="Card Image 1" />
             <h6>Rapid and Scalable Using Raspberry Pi 4 Cameras</h6>
             <p>Embedded vision systems have been a tested and proven solution in mature technologies.</p>
-            <button className="hubblog-explore-more">
-              Explore More 
-            </button>
+            <button className="Hubread-more">Read More</button>
           </div>
           <div className="hubblog-card">
             <img src={tee2} alt="Card Image 2" />
             <h6>Rapid and Scalable Using Raspberry Pi 4 Cameras</h6>
             <p>Embedded vision systems have been a tested and proven solution in mature technologies.</p>
-            <button className="hubblog-explore-more">
-              Explore More 
-            </button>
+            <button className="Hubread-more">Read More</button>
           </div>
         </div>
         {/* <div className="hubblog-full-card">
