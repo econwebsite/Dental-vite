@@ -1,0 +1,80 @@
+
+
+.products-container {
+    width: 100%;
+    min-height: 400px !important; /* Ensures container takes at least full viewport height */
+    background-color:white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+/* Container for tabs */
+.Products-Tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Tabs styling */
+.productcustom-tabs .ant-tabs-tab {
+    font-size: 1.5em; /* Adjusted font size for tabs */
+    color: #344ea1;
+    padding: 20px 10px; 
+    margin: 0; /* Remove margin to reduce space between tabs */
+}
+
+/* Active tab styling */
+.productcustom-tabs .ant-tabs-tab-active {
+    font-size: 1.5em; /* Ensures active tab has the same font size */
+    color: #003873; /* Color change for active tab for better visibility */
+}
+
+/* Tabs content styling */
+.ant-tabs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Specific styling for each tab pane */
+.ant-tabs-tabpane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px; /* Adjust padding to decrease space */
+}
+.ant-tabs-content-holder{
+    width: 100%;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .custom-tabs .ant-tabs-tab {
+        font-size: 1em; /* Smaller font size for tabs on mobile */
+        padding: 8px 5px; /* Reduced padding on mobile */
+    }
+
+    .products-heading {
+        font-size: 2em; /* Smaller font size for heading on mobile */
+    }
+
+    .ant-tabs-tabpane {
+        padding: 5px; /* Further reduced padding on mobile */
+    }
+}
+
+/* Additional CSS to reduce space between tabs specifically for mobile view */
+@media (max-width: 768px) {
+    .ant-tabs-bar {
+        margin-bottom: 0; /* Remove default margin */
+    }
+
+    .ant-tabs-tab {
+        margin: 0; /* Remove margin to decrease space between tabs */
+    }
+}

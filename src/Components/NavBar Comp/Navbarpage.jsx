@@ -10,7 +10,7 @@ const Navbarpage = () => {
     {
       key: '1',
       label: (
-        <Link to="/bloghub">
+        <Link to="/bloghubpage">
           Blogs
         </Link>
       ),
@@ -18,8 +18,8 @@ const Navbarpage = () => {
     {
       key: '2',
       label: (
-        <Link to="/casehub">
-          Casestudies
+        <Link to="/casestudy">
+          Case Studies
         </Link>
       ),
     },

@@ -1,0 +1,95 @@
+.Hubcasecard-Total {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f1f2f2;
+}
+
+.Hubcasecard-Title {
+  margin-bottom: 20px;
+  font-size: 3em;
+  color: #003873;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Hubcasecard-Cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Hubcasecard-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left; /* Ensures text is aligned left */
+  width: 25%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.Hubcasecard-Image {
+  max-width: 80%;
+  border-radius: 4px;
+}
+
+.Hubcasecard-Title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1em;
+  margin-top: 10px;
+  color: #013773;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.Hubcasecard-Text {
+  /* margin: 10px 0; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0.9em;
+  color: #344ea1;
+  margin-bottom: 20px;
+}
+
+.Hubcasecard-Button1 {
+  padding: 8px 30px;
+}
+
+@media (max-width: 768px) {
+  .Hubcasecard-Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hubcasecard-Card {
+    width: 100%;
+    text-align: center; /* Ensures text is centered */
+  }
+
+  .Hubcasecard-Title {
+    font-size: 2em;
+  }
+  .Hubcasecard-Text {
+    line-height: 1.5em;
+    font-size: 0.8em;
+  }
+  .Hubcasecard-Title {
+    line-height: 1.5em;
+    font-size: 1em;
+  }
+  .Hubcasecard-Button1 {
+    font-size: small;
+    padding: 10px 40px;
+  }
+}

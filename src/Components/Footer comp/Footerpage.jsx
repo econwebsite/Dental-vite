@@ -2,7 +2,7 @@ import React from 'react';
 import './Footerpage.css'; // Ensure this CSS file contains the styles
 import dentallogo from "../assets/DENTAL LOGO.png";
 import { RiPhoneFill, RiMailFill, RiTwitterXLine, RiLinkedinFill, RiYoutubeFill, RiFacebookFill, RiInstagramFill } from 'react-icons/ri'; // Import necessary icons
-
+import AnimatedButton from "../Button comp/AnimatedButton"
 const Footerpage = () => {
   return (
     <footer className="footer-container">
@@ -34,7 +34,8 @@ const Footerpage = () => {
           <h4 className="footer-subscribe-title">Subscribe for latest updates</h4>
           <div className="footer-subscribe-input">
             <input type="email" placeholder="Email id" />
-            <button style={{backgroundColor:"#003873",color:"white"}}>Proceed</button>
+            <AnimatedButton className="footerproceed-btn" text="Proceed" backgroundColor="#003873" animationColor="#69ba2f" hoverColor="#69ba2f"></AnimatedButton>
+
           </div>
           <div className="footer-social-icons">
             <button className="footer-icon-button"><RiTwitterXLine /></button>

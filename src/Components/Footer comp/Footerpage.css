@@ -106,10 +106,9 @@
   margin-top: 10px;
 }
 
-.footer-subscribe-input button {
-  padding: 5px 10px;
-  color: white;
-  background-color: #344ea1;
+.footerproceed-btn {
+  padding: 7px 10px;
+  border-radius: none;
   border: none;
   margin-top: 10px;
 }
