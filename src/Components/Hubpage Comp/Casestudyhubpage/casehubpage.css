@@ -20,7 +20,7 @@
 .casepageblog {
   display: flex;
   margin-top: 50px;
-  height: 800px; /* Fixed height for the container */
+  height: auto; /* Adjusted to fit content */
 }
 
 .casehubpage-column {
@@ -50,7 +50,7 @@
   box-sizing: border-box;
   height: 100%; /* Ensure it takes full height of its container */
   display: flex;
-  flex-direction: column; /* Ensure column layout for contents */
+  flex-direction: column;
   justify-content: space-between; /* Space between content and button */
 }
 
@@ -88,128 +88,82 @@
 
 .casehubpage-card-row {
   display: flex;
+  flex-direction: column; /* Stack cards vertically */
   gap: 20px;
-  justify-content: center;
   flex: 1;
 }
 
 .casehubpage-card {
   border: 1px solid #ddd;
-  padding: 15px;
+  padding: 20px; /* Increased padding for larger cards */
   background-color: #fff;
   border-radius: 10px;
-  text-align: center;
+  display: flex;
+  flex-direction: row; /* Card layout side by side */
+  align-items: stretch;
+  width: 100%; /* Ensure it spans the full width */
+  box-sizing: border-box;
+  min-height: 300px; /* Increased height for better alignment */
+  margin-bottom: 2px; 
+}
+
+.casehubpage-card-left {
+  flex: 0.9;
+  display: flex;
+  align-items: center; /* Center image vertically */
+  justify-content: center; /* Center image horizontally */
+}
+
+.casehubpage-card-right {
   flex: 1;
-  max-width: 300px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-  min-height: 250px; /* Ensure cards have a minimum height */
-  position: relative; /* Position relative for absolute positioning of button */
+  justify-content: center; /* Center text and button vertically */
+  align-items: flex-start; /* Align text and button to the left */
 }
 
-.casehubpage-card img {
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 10px;
+.casehubpage-card-left img {
+  width: 100%; /* Ensure image fills the left side of the card */
+  height: 300px;
+  object-fit: cover;
 }
 
-.casehubpage-card h6 {
+.casehubpage-card-right h6 {
   margin-bottom: 10px;
   font-weight: 800;
   line-height: 1.5em;
-  font-style: normal;
-  font-size: 1em; 
-  color: #013773; 
+  font-size: 1em;
+  color: #013773;
   text-align: justify;
 }
 
-.casehubpage-card p {
+.casehubpage-card-right p {
   margin-bottom: 10px;
   font-weight: 100;
-  line-height: 1.5em;
-  font-style: normal;
-  font-size: 0.9em; /* Adjust for large screens */
-  color: #344ea1; 
+  font-size: 0.9em;
+  color: #344ea1;
   text-align: justify;
 }
 
 .Caseread-more {
+  margin-top: 10px;
   padding: 8px 30px;
-  margin-top: 5px;
-}
-
-.casehubpage-arrow {
-  margin-left: 8px;
-}
-
-.casehubpage-full-card {
-  display: flex;
-  margin-top: 20px;
-  background-color: #fff;
-  height: 100%; /* Ensure it takes full height of its container */
-}
-
-.casehubpage-full-card-left {
-  width: 50%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.casehubpage-full-card-right {
-  width: 50%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.casehubpage-full-card-right h6 {
-  margin-bottom: 10px;
-  font-weight: 800;
-  line-height: 1.5em;
-  font-style: normal;
-  font-size: 1em; 
-  color: #013773; 
-  text-align: left;
-}
-
-.casehubpage-full-card-right p {
-  margin-bottom: 10px;
-  font-weight: 100;
-  line-height: 1.5em;
-  font-style: normal;
-  font-size: 0.9em; 
-  color: #344ea1; 
-  text-align: left;
-}
-
-.casehubpage-explore-more {
-  padding: 10px 20px;
-  border: none;
   background-color: #344ea1;
   color: #fff;
   font-size: 0.9em;
   cursor: pointer;
+  border: none;
   border-radius: 5px;
   text-align: center;
 }
 
-.casehubpage-explore-more:hover {
+.Caseread-more:hover {
   background-color: #69ba2f;
 }
 
 @media (max-width: 768px) {
   .casepageblog {
-      flex-direction: column;
-  }
-
-  .casehubpage-column {
-      flex: none;
-      width: 100%;
-      padding: 10px;
+    flex-direction: column;
   }
 }
