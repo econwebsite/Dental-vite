@@ -8,13 +8,8 @@ const Dentalhome = () => {
         <div className="oralcamera-Dental-header">
             <div className="oralcamera-left-Bg" style={{ backgroundImage: `url(${animationbg})` }}>
                 <div className="oralcamera-total-text">
-<<<<<<< HEAD
                     <p className="oralcamera-static-text">Sharper Insights. Brighter Smiles<br></br>Advanced Dental Camera Solutions</p>
                     <h4 className="oralcamera-text-sticky">For Diagnosis & Treatment Procedures</h4>
-=======
-                    <p className="oralcamera-static-text">Sharper Insights. Brighter Smiles <br></br>Advanced Dental Camera Solutions</p>
-                    <h4 className="oralcamera-text-sticky"></h4>
->>>>>>> 7f1d65ba117768d7073045fbb1a2011ce53268c6
                     <div className="oralcamera-buttons-inform">
                         <AnimatedButton className="oralcamera-contactus-Button" text="Contact us" backgroundColor="#69ba2f" animationColor="#344ea1" hoverColor="344ea1"></AnimatedButton>
                         <AnimatedButton className="oralcamera-getQuote-Button" text="Download Tech Document" backgroundColor="#00aeef" animationColor="#344ea1" hoverColor="344ea1"></AnimatedButton>
