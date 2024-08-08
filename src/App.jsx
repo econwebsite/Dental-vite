@@ -15,6 +15,7 @@ import Casehubpage from "./Components/Hubpage Comp/Casestudyhubpage/Casehubpage"
 import AutofocusBlog from "./Components/Blog Reading comp/Autofocus-Blogs/AutofocusBlog";
 import Threeimportant from './Components/Blog Reading comp/Threeimportant-Blogs/Threeimportant';
 import ScrollToTop from './ScrollToTop'; // Import ScrollToTop
+import Aguidtochoose from './Components/Blog Reading comp/A-guid to choose-Blog/Aguidtochoose';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/blog" element={<TotalBlog />} />
           <Route path="/Autofocus-Blog-page" element={<AutofocusBlog />} />
           <Route path="/Three-Important-Blog" element={<Threeimportant />} />
+          <Route path='/A Guide to Choosing the Right Dental Intraoral Camera' element={<Aguidtochoose/>}></Route>
           <Route path="/home" element={<TotalHomepage />} />
           <Route path="/product" element={<Product />} />
           <Route path="/contactus" element={<ContactUs />} />

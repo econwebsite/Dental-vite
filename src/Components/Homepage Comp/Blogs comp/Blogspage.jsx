@@ -40,7 +40,7 @@ const Blogspage = () => {
             <div className="homeblog-box-content">
               <h6>A Guide to Choosing the Right Dental Intraoral Camera</h6>
               <p>Read to learn about the key features that make a dental intraoral camera ...</p>
-              <AnimatedButton className="homeblog-btn" text="Know more" backgroundColor="#00aeef" animationColor="#344ea1" hoverColor="#344ea1"></AnimatedButton>
+              <AnimatedButton className="homeblog-btn" text="Know more" backgroundColor="#00aeef" animationColor="#344ea1" hoverColor="#344ea1" to="/A Guide to Choosing the Right Dental Intraoral Camera"></AnimatedButton>
             </div>
           </div>
           <div className="homeblog-box">

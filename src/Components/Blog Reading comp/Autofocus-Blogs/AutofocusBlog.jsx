@@ -17,19 +17,7 @@ const AutofocusBlog = () => {
         <div className="breadcrumb">Home {'>'} Dental Imaging</div>
           <h1>Autofocus vs. Fixed-focus: Which Lens to Choose for Intraoral Cameras?</h1>
           <p>By Balaji S, July 16, 2024</p>
-          {/* <div className="custom-icon-box">
-            <div className="custombutton-row">
-            <button className="blog-icon-share">Share</button>
-              <button className="blog-icon-button"><RiTwitterXLine /></button>
-              <button className="blog-icon-button"><RiLinkedinFill /></button>
-              <button className="blog-icon-button"><RiYoutubeFill /></button>
-              <button className="blog-icon-button"><RiFacebookFill /></button>
-              <button className="blog-icon-button"><RiInstagramLine /></button>
-              <button className="blog-icon-button"><RiMailLine /></button>
-              <button className="blog-icon-button"><FaTelegramPlane /></button>
-              <button className="blog-icon-button"><RiPinterestFill /></button>
-            </div>
-          </div> */}
+          
           <div className="blogborder-box">
             <p>In dental imaging, selecting the appropriate lens type for intraoral cameras is a monumentally important decision. The choices, as you have guessed, are autofocus lenses and fixed-focus lenses. Both offer unique advantages and limitations, each influencing the quality of dental images and the overall device experience in different ways. </p>
             <p>Product developers and decision-makers must grasp these differences so that dental professionals get the most suitable option for their specific intraoral needs.</p>
