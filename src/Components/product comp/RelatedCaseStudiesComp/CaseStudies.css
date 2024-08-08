@@ -1,0 +1,94 @@
+.productSection .Technical-Total {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.productSection .Technical-title {
+  margin-bottom: 20px;
+  font-size: 3em; 
+  color: #003873;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.productSection .Total-Casestudy {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.productSection .Technical-card {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left; /* Ensures text is aligned left */
+  width: 25%;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.productSection .Tech-card-image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.productSection .Tech-card-title {
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+color: #093e77;
+  margin-bottom: 10px;
+}
+
+.productSection .Techcard-text {
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+  color: #344ea1;
+  margin-bottom: 30px;
+}
+
+
+.productSection .Tech-card-button2{
+  padding: 10px 40px;
+}
+
+@media (max-width: 768px) {
+  .productSection .Total-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productSection .Technical-card {
+    width: 100%;
+    text-align: center; /* Ensures text is centered */
+  }
+
+  .productSection  .Technical-title {
+    font-size: 2em; 
+  }
+  .productSection  .Techcard-text {
+    line-height: 1.5em;
+    font-size: 0.8em; 
+  }
+  .productSection .Tech-card-title {
+    line-height: 1.5em;
+    font-size: 1em; 
+  }
+  .productSection .Tech-card-button1,
+  .productSection .Tech-card-button2,
+  .productSection .Tech-card-button3 {
+  font-size: small;
+  padding: 10px 40px;
+}
+}
+

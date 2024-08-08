@@ -1,0 +1,29 @@
+.specification-para {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove default bullets */
+    width: 100%;
+}
+
+.specification-para li {
+    font-size: 1.2em;
+    position: relative; /* Positioning for the custom bullet */
+    padding-left: 30px; /* Space for the custom bullet */
+    margin-bottom: 8px; /* Space between list items */
+    color: #344ea1; /* Text color */
+    text-align: left; /* Ensure text is left-aligned */
+    display: flex; /* Use Flexbox for alignment */
+    align-items: flex-start; /* Align text to the start of the list item */
+}
+
+.specification-para li::before {
+    content: '•'; /* Custom bullet point */
+    position: absolute;
+    left: 0; /* Align bullet point to the left of the list item */
+    color: #344ea1; /* Bullet point color */
+    font-size: 1.2em; /* Adjust size of the bullet point */
+    line-height: 1; /* Align bullet with text */
+}

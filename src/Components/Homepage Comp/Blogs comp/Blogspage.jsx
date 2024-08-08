@@ -4,7 +4,11 @@ import Dentalimg from "../../assets/des.jpg";
 import rightimg1 from "../../assets/rightimg 1.png";
 import rightimg2 from "../../assets/rightimg 2.jpg";
 import AnimatedButton from "../../Button comp/AnimatedButton"
+<<<<<<< HEAD
 // import { Link } from 'react-router-dom';
+=======
+import { Link } from 'react-router-dom';
+>>>>>>> 7f1d65ba117768d7073045fbb1a2011ce53268c6
 
 const Blogspage = () => {
   return (
@@ -32,7 +36,11 @@ const Blogspage = () => {
             <div className="homeblog-box-content">
               <h6>Autofocus vs. Fixed focus: Which Lens to Choose for Intraoral Cameras?</h6>
               <p>Understand how autofocus and fixed focus differentiate the dental imaging quality, device usability, and overall...</p>
+<<<<<<< HEAD
            <AnimatedButton className="homeblog-btn" text="Know more" backgroundColor="#00aeef" animationColor="#344ea1" hoverColor="#344ea1" to="/Three-Important-Blog"></AnimatedButton>
+=======
+           <AnimatedButton className="homeblog-btn" text="Know more" backgroundColor="#00aeef" animationColor="#344ea1" hoverColor="#344ea1"></AnimatedButton>
+>>>>>>> 7f1d65ba117768d7073045fbb1a2011ce53268c6
             </div>
           </div>
           <div className="homeblog-box">

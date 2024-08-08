@@ -13,7 +13,11 @@
 }
 
 .oralcamera-left-Bg {
+<<<<<<< HEAD
     flex: 0 0 65%; /* 60% of the width */
+=======
+    flex: 0 0 60%; /* 60% of the width */
+>>>>>>> 7f1d65ba117768d7073045fbb1a2011ce53268c6
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +29,11 @@
 }
 
 .oralcamera-Right-Dental {
+<<<<<<< HEAD
     flex: 0 0 35%; /* 40% of the width */
+=======
+    flex: 0 0 40%; /* 40% of the width */
+>>>>>>> 7f1d65ba117768d7073045fbb1a2011ce53268c6
     display: flex;
     justify-content: center;
     align-items: center;
